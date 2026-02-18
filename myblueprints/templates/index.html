@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <form action="/allprograms" method="GET">
+        <button type="submit">Visa alla program</button>
+        {% for program in programs %}
+            <p>{{ program['Programnamn'] }} - <a href="{{ program['Link'] }}" target="_blank">Länk</a></p>
+        {% endfor %}
+    </form>
+{% endblock %}
+
