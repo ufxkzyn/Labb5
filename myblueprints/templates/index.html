@@ -1,10 +1,15 @@
 {% extends "base.html" %}
+
 {% block content %}
     <form action="/allprograms" method="GET">
-        <button type="submit">Visa alla program</button>
-        {% for program in programs %}
-            <p>{{ program['Programnamn'] }} - <a href="{{ program['Link'] }}" target="_blank">Länk</a></p>
-        {% endfor %}
+        <p>Datan hämtades: {{ data[0]['timestamp'] }}</p>
+        <p>Data källa: {{ source }}</p>
+        <p>Antal kategorier: {{ count }}</p>
+        <ul>
+            {% for category in data %}
+                <li><a href="{{ category['länk'] }}">{{ category['kategori'] }}</a></li>
+            {% endfor %}
+        </ul>
     </form>
 {% endblock %}
 

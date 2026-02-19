@@ -9,13 +9,14 @@ import re
 
 
 
-from myblueprints.duprograms import duprograms
+from myblueprints.BooksScraped import BooksScraped
 
 
 
 app = Flask(__name__)
+app.json.sort_keys = False ## added so we can decide order we print jsonify out, without this its alphabetical order
 
-app.register_blueprint(duprograms, url_prefix='/') 
+app.register_blueprint(BooksScraped, url_prefix='/') 
 
 
 
