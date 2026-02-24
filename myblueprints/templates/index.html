@@ -1,15 +1,30 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <form action="/allprograms" method="GET">
+<!--    
+ <form action="/allprograms" method="GET">
         <p>Datan hämtades: {{ data[0]['timestamp'] }}</p>
         <p>Data källa: {{ source }}</p>
-        <p>Antal kategorier: {{ count }}</p>
+        <p>Antal kategorier: {{ count -1 }}</p>    -1 för att inte räkna med timedate, även därför vi börjar ifrån element 1 inte 0 på data 
         <ul>
-            {% for category in data %}
-                <li><a href="{{ category['länk'] }}">{{ category['kategori'] }}</a></li>
+            {% for category in data[1:] %}
+                <li>{{ category['kategori'] }}: <a href="{{ category['Link'] }}">{{ category['Link'] }}</a></li>
             {% endfor %}
         </ul>
     </form>
+
+
+<form action="/allbooks" method="GET">
+    <p>Datan hämtades: {{ data[0]['timestamp'] }}</p>
+    <p>Data källa: {{ source }}</p>
+    <p>Antal kategorier: {{ count -1 }}</p>  -1 för att inte räkna med timedate, även därför vi börjar ifrån element 1 inte 0 på data
+    <ul>
+        {% for category in data[1:] %}
+            <li>{{ category['kategori'] }}: <a href="{{ category['Link'] }}">{{ category['Link'] }}</a></li>
+
+        {% endfor %}
+    </ul>
+</form>
+-->
 {% endblock %}
 
