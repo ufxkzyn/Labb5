@@ -1,4 +1,5 @@
-from urllib import response
+from locale import currency
+from wsgiref import headers
 
 from flask import Blueprint, jsonify, render_template, request, Flask
 import os  # Import the os module to cehck if json file exist or not
@@ -34,6 +35,7 @@ def get_books():
         if data:
             with open(Full_book_list,'w', encoding='utf-8') as file_pointer_new:
                 json.dump(data, file_pointer_new, ensure_ascii=False, indent=4)
+        convert_price(data)
     return jsonify(data)
 
 #### function for getting all the categories ####
@@ -62,13 +64,65 @@ def scrape_books():
     except Exception as e:
         print(f'Error, cant scrape{e}')
 
+
+##function for converting ##
+@BooksScraped.route('/convertprice', methods=['GET', 'POST'])
+def convert_price(category):
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+
+    price_converted = []
+
+
+    try:
+        currency_soup = requests.get("https://www.x-rates.com/table/?from=GBP&amount=1", headers=headers, timeout=10)
+        currency_soup = BeautifulSoup(currency_soup.text, 'html.parser')
+        find_price = currency_soup.find('div', class_="moduleContent").find('table', class_="tablesorter ratesTable")    
+
+        ###refactorizera detta till eegen funktion
+        for currency_finder in find_price.find_all('tr'):
+            if 'Swedish Krona' in currency_finder.get_text():
+                print(currency_finder.get_text())
+                print('found the price')
+                price_converted.append({
+                    'currency': 'SEK',
+                    'price': currency_finder.find_all('td')[1].get_text()
+                })
+
+        with open(Full_book_list, 'r', encoding='utf-8') as file_pointer_converting:
+            file_currency_converter = json.load(file_pointer_converting)
+            for categories in file_currency_converter:
+                for book in categories['books']:
+                    gbp_price = book['gbpprice']
+                    sek_price = round(float(gbp_price) * float(price_converted[0]['price']), 2) 
+                    print(f"GBP price: {gbp_price}, SEK price: {sek_price}")
+                    category = {
+                        'sekprice': sek_price,
+                        'gbpprice': gbp_price
+                    }
+                    book.update(category)
+
+            with open(Full_book_list, 'w', encoding='utf-8') as file_pointer_converting:
+                json.dump(file_currency_converter, file_pointer_converting, ensure_ascii=False, indent=4)
+
+            return jsonify({"message": "Prices converted successfully"}), 200
+
+    except Exception as e:
+        print(f'Error, cant convert price{e}')
+                
+
+
+
 ####function for getting all the books in a category ####
+@BooksScraped.route('/failturetesting', methods=['GET', 'POST'])
+#category_link="https://books.toscrape.com/catalogue/category/books/mystery_3/index.html"
 def books_in_category(category_link):
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
     books = []
     try:
         category_page = requests.get(category_link, headers=headers, timeout=10)
         category_soup = BeautifulSoup(category_page.text, 'html.parser')
+        #return f"<pre>{category_soup.prettify().replace('<', '&lt;').replace('>', '&gt;')}</pre>" #felsökning
+
         while True:
             print(f"Going to next page: {category_link}")
             find_all_books = category_soup.find_all('ol', class_="row") #where the books are
@@ -80,15 +134,24 @@ def books_in_category(category_link):
             if find_each_book:
                 for book in find_each_book:
                     book_link = f"https://books.toscrape.com/catalogue/{book.find('h3').find('a')['href']}" #this tells us to go to h3, find 'a' then take the link
+                    book_link = re.sub(r'/../../..', '', book_link) #used to find the /../../.. and substitute it with nothing. (unsure for the reason why the link is so sus) 
+
+                    
+
+                    book_thumnail = f"https://books.toscrape.com/{book.find('img')['src']}" #same as above but for the thumbnail
+                    book_thumnail = re.sub(r'/../../../..', '', book_thumnail)
+
                     book_title = book.find('h3').find('a')['title'] #this tells us to go to h3, find 'a' then take the title
-                    book_thumnail = book.find('div', class_='image_container').find('img')['src'] #this tells us to go to div, find image_container, then find img and take the src
                     book_price = book.find('p', class_='price_color').get_text().split('£') #this tells us to go to p, find price then remove the £ sign, still need to convert to sek 
                     books.append({
                         'title': book_title,
                         'link': book_link,
                         'thumbnail': book_thumnail,
-                        'price': book_price[1]
+                        'gbpprice': book_price[1],
+                        'sekprice': 1
+                        
                     })
+
             next_page = category_soup.find('li', class_='next') #used to find the next button
             if next_page:
                 next_page_link = next_page.find('a')['href'] # used to get the link to the next page
@@ -101,6 +164,7 @@ def books_in_category(category_link):
         return books
     except Exception as e:
         print(f'Error, cant scrape{e}')    
+
 
 
 #### not used ###
