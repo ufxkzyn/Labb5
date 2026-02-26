@@ -1,0 +1,14 @@
+{
+    "category": "Cultural",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/cultural_49/index.html",
+    "books": [
+        {
+            "title": "Amid the Chaos",
+            "booklink": "https://books.toscrape.com/catalogue/amid-the-chaos_788/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/52/46/524655fade1d9fe1475395a3eaff827a.jpg",
+            "gbpprice": "36.58",
+            "sekprice": 447.25
+        }
+    ]
+}

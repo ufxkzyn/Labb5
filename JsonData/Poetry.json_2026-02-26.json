@@ -1,0 +1,158 @@
+{
+    "category": "Poetry",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/poetry_23/index.html",
+    "books": [
+        {
+            "title": "A Light in the Attic",
+            "booklink": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg",
+            "gbpprice": "51.77",
+            "sekprice": 632.97
+        },
+        {
+            "title": "The Black Maria",
+            "booklink": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/58/46/5846057e28022268153beff6d352b06c.jpg",
+            "gbpprice": "52.15",
+            "sekprice": 637.62
+        },
+        {
+            "title": "Shakespeare's Sonnets",
+            "booklink": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/10/48/1048f63d3b5061cd2f424d20b3f9b666.jpg",
+            "gbpprice": "20.66",
+            "sekprice": 252.6
+        },
+        {
+            "title": "Olio",
+            "booklink": "https://books.toscrape.com/catalogue/olio_984/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/55/33/553310a7162dfbc2c6d19a84da0df9e1.jpg",
+            "gbpprice": "23.88",
+            "sekprice": 291.97
+        },
+        {
+            "title": "You can't bury them all: Poems",
+            "booklink": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/e9/20/e9203b733126c4a0832a1c7885dc27cf.jpg",
+            "gbpprice": "33.63",
+            "sekprice": 411.18
+        },
+        {
+            "title": "Slow States of Collapse: Poems",
+            "booklink": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/72/41/72417db983862010ef0c1a25de98c7d7.jpg",
+            "gbpprice": "57.31",
+            "sekprice": 700.71
+        },
+        {
+            "title": "Untitled Collection: Sabbath Poems 2014",
+            "booklink": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/f9/3b/f93b4a650f03a5d21f2436d7813f42c2.jpg",
+            "gbpprice": "14.27",
+            "sekprice": 174.47
+        },
+        {
+            "title": "Poems That Make Grown Women Cry",
+            "booklink": "https://books.toscrape.com/catalogue/poems-that-make-grown-women-cry_824/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/38/64/386468a8c3e6b880664bf7885bf6f726.jpg",
+            "gbpprice": "14.19",
+            "sekprice": 173.5
+        },
+        {
+            "title": "Night Sky with Exit Wounds",
+            "booklink": "https://books.toscrape.com/catalogue/night-sky-with-exit-wounds_822/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/25/54/2554431c797ec725eea50b3f8a83758c.jpg",
+            "gbpprice": "41.05",
+            "sekprice": 501.9
+        },
+        {
+            "title": "salt.",
+            "booklink": "https://books.toscrape.com/catalogue/salt_731/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/3f/41/3f4160ada0b16e3c64cd2d0dffe781c8.jpg",
+            "gbpprice": "46.78",
+            "sekprice": 571.96
+        },
+        {
+            "title": "Quarter Life Poetry: Poems for the Young, Broke and Hangry",
+            "booklink": "https://books.toscrape.com/catalogue/quarter-life-poetry-poems-for-the-young-broke-and-hangry_727/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/c8/f2/c8f297fab080ddd02b3ed5c17b83af85.jpg",
+            "gbpprice": "50.89",
+            "sekprice": 622.21
+        },
+        {
+            "title": "Out of Print: City Lights Spotlight No. 14",
+            "booklink": "https://books.toscrape.com/catalogue/out-of-print-city-lights-spotlight-no-14_536/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/93/d5/93d5c64abfad9ed6a0cb2e26f19f1a1e.jpg",
+            "gbpprice": "53.64",
+            "sekprice": 655.84
+        },
+        {
+            "title": "Les Fleurs du Mal",
+            "booklink": "https://books.toscrape.com/catalogue/les-fleurs-du-mal_530/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/36/5b/365b3ab7ab72a6258873716aef6d5c1a.jpg",
+            "gbpprice": "29.04",
+            "sekprice": 355.06
+        },
+        {
+            "title": "Howl and Other Poems",
+            "booklink": "https://books.toscrape.com/catalogue/howl-and-other-poems_522/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/b7/29/b7293f602efb0c17e305077f8175888a.jpg",
+            "gbpprice": "40.45",
+            "sekprice": 494.57
+        },
+        {
+            "title": "Leave This Song Behind: Teen Poetry at Its Best",
+            "booklink": "https://books.toscrape.com/catalogue/leave-this-song-behind-teen-poetry-at-its-best_474/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/31/c7/31c7c5ce7b04d227aa36ecb250b9dad5.jpg",
+            "gbpprice": "51.17",
+            "sekprice": 625.64
+        },
+        {
+            "title": "The Collected Poems of W.B. Yeats (The Collected Works of W.B. Yeats #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-collected-poems-of-wb-yeats-the-collected-works-of-wb-yeats-1_441/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/7e/93/7e934132cd03486649fb492fe702f704.jpg",
+            "gbpprice": "15.42",
+            "sekprice": 188.54
+        },
+        {
+            "title": "The Crossover",
+            "booklink": "https://books.toscrape.com/catalogue/the-crossover_398/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/9f/35/9f351ca1978128c60a3b7f85987075b3.jpg",
+            "gbpprice": "38.77",
+            "sekprice": 474.03
+        },
+        {
+            "title": "Booked",
+            "booklink": "https://books.toscrape.com/catalogue/booked_365/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/8f/46/8f46bb13feb3a4440a27dfcf688fbaa6.jpg",
+            "gbpprice": "17.49",
+            "sekprice": 213.84
+        },
+        {
+            "title": "Twenty Love Poems and a Song of Despair",
+            "booklink": "https://books.toscrape.com/catalogue/twenty-love-poems-and-a-song-of-despair_91/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/df/ab/dfab1d94f9190df7c13b63a093a6d16e.jpg",
+            "gbpprice": "30.95",
+            "sekprice": 378.42
+        }
+    ]
+}

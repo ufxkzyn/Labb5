@@ -1,0 +1,14 @@
+{
+    "category": "Erotica",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/erotica_50/index.html",
+    "books": [
+        {
+            "title": "Dark Notes",
+            "booklink": "https://books.toscrape.com/catalogue/dark-notes_800/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/6e/4e/6e4e8f4f4abd94356a9be840e4681e65.jpg",
+            "gbpprice": "19.19",
+            "sekprice": 234.63
+        }
+    ]
+}

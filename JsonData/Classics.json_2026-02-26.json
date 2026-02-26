@@ -1,0 +1,158 @@
+{
+    "category": "Classics",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/classics_6/index.html",
+    "books": [
+        {
+            "title": "The Secret Garden",
+            "booklink": "https://books.toscrape.com/catalogue/the-secret-garden_413/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/c5/46/c5465a06182ed6ebfa40d049258a2f58.jpg",
+            "gbpprice": "15.08",
+            "sekprice": 184.38
+        },
+        {
+            "title": "The Metamorphosis",
+            "booklink": "https://books.toscrape.com/catalogue/the-metamorphosis_409/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/4a/1b/4a1b6e9c1af75db0dc34ae63344f6883.jpg",
+            "gbpprice": "28.58",
+            "sekprice": 349.44
+        },
+        {
+            "title": "The Pilgrim's Progress",
+            "booklink": "https://books.toscrape.com/catalogue/the-pilgrims-progress_353/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/45/bb/45bb59d19eb3aa868293d44809078418.jpg",
+            "gbpprice": "50.26",
+            "sekprice": 614.51
+        },
+        {
+            "title": "The Hound of the Baskervilles (Sherlock Holmes #5)",
+            "booklink": "https://books.toscrape.com/catalogue/the-hound-of-the-baskervilles-sherlock-holmes-5_348/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/1f/b0/1fb03cdabe6001c8a2620f65e025cbd5.jpg",
+            "gbpprice": "14.82",
+            "sekprice": 181.2
+        },
+        {
+            "title": "Little Women (Little Women #1)",
+            "booklink": "https://books.toscrape.com/catalogue/little-women-little-women-1_331/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/81/f5/81f559ebe403317226fa8b611e35ce8a.jpg",
+            "gbpprice": "28.07",
+            "sekprice": 343.2
+        },
+        {
+            "title": "Gone with the Wind",
+            "booklink": "https://books.toscrape.com/catalogue/gone-with-the-wind_324/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/27/82/2782701b5c877cb063065b9fc14c5b13.jpg",
+            "gbpprice": "32.49",
+            "sekprice": 397.24
+        },
+        {
+            "title": "Candide",
+            "booklink": "https://books.toscrape.com/catalogue/candide_316/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/e3/c4/e3c4aba2409bb769a6488805e3fc4709.jpg",
+            "gbpprice": "58.63",
+            "sekprice": 716.85
+        },
+        {
+            "title": "Animal Farm",
+            "booklink": "https://books.toscrape.com/catalogue/animal-farm_313/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/10/db/10db56354b4550d92270c6f097d9bebc.jpg",
+            "gbpprice": "57.22",
+            "sekprice": 699.61
+        },
+        {
+            "title": "Wuthering Heights",
+            "booklink": "https://books.toscrape.com/catalogue/wuthering-heights_307/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/93/4e/934e966c1ddf559d3ac2b5c1407aaf1e.jpg",
+            "gbpprice": "17.73",
+            "sekprice": 216.78
+        },
+        {
+            "title": "The Picture of Dorian Gray",
+            "booklink": "https://books.toscrape.com/catalogue/the-picture-of-dorian-gray_270/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/a6/72/a67245346daa38c2b23a4fc64c6e7115.jpg",
+            "gbpprice": "29.70",
+            "sekprice": 363.13
+        },
+        {
+            "title": "The Complete Stories and Poems (The Works of Edgar Allan Poe [Cameo Edition])",
+            "booklink": "https://books.toscrape.com/catalogue/the-complete-stories-and-poems-the-works-of-edgar-allan-poe-cameo-edition_238/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/42/c4/42c48f11b7e70a0f76c5ba9cb5c5018a.jpg",
+            "gbpprice": "26.78",
+            "sekprice": 327.43
+        },
+        {
+            "title": "Beowulf",
+            "booklink": "https://books.toscrape.com/catalogue/beowulf_126/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/dd/6e/dd6e7b84e99f3b4b5655ea0db74af2b4.jpg",
+            "gbpprice": "38.35",
+            "sekprice": 468.89
+        },
+        {
+            "title": "And Then There Were None",
+            "booklink": "https://books.toscrape.com/catalogue/and-then-there-were-none_119/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/21/bf/21bf2eb0bff3134837def8bd40845ba0.jpg",
+            "gbpprice": "35.01",
+            "sekprice": 428.06
+        },
+        {
+            "title": "The Story of Hong Gildong",
+            "booklink": "https://books.toscrape.com/catalogue/the-story-of-hong-gildong_84/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/ab/16/ab16eb035cc58809a73c4699477de9cb.jpg",
+            "gbpprice": "43.19",
+            "sekprice": 528.07
+        },
+        {
+            "title": "The Little Prince",
+            "booklink": "https://books.toscrape.com/catalogue/the-little-prince_72/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/c0/78/c078355608dd81c7c5e4f5e1c5f73d23.jpg",
+            "gbpprice": "45.42",
+            "sekprice": 555.33
+        },
+        {
+            "title": "Sense and Sensibility",
+            "booklink": "https://books.toscrape.com/catalogue/sense-and-sensibility_49/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/7d/53/7d53e2264b9647ee307259be9f73585d.jpg",
+            "gbpprice": "37.46",
+            "sekprice": 458.01
+        },
+        {
+            "title": "Of Mice and Men",
+            "booklink": "https://books.toscrape.com/catalogue/of-mice-and-men_37/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/0f/ca/0fca4597765ffacdb7bd529fc5eb88fa.jpg",
+            "gbpprice": "47.11",
+            "sekprice": 576.0
+        },
+        {
+            "title": "Emma",
+            "booklink": "https://books.toscrape.com/catalogue/emma_17/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/09/63/09638baaef52f03827c215029c632a13.jpg",
+            "gbpprice": "32.93",
+            "sekprice": 402.62
+        },
+        {
+            "title": "Alice in Wonderland (Alice's Adventures in Wonderland #1)",
+            "booklink": "https://books.toscrape.com/catalogue/alice-in-wonderland-alices-adventures-in-wonderland-1_5/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/96/ee/96ee77d71a31b7694dac6855f6affe4e.jpg",
+            "gbpprice": "55.53",
+            "sekprice": 678.95
+        }
+    ]
+}

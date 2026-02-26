@@ -1,0 +1,134 @@
+{
+    "category": "Science Fiction",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html",
+    "books": [
+        {
+            "title": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+            "booklink": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/09/a3/09a3aef48557576e1a85ba7efea8ecb7.jpg",
+            "gbpprice": "37.59",
+            "sekprice": 459.6
+        },
+        {
+            "title": "Join",
+            "booklink": "https://books.toscrape.com/catalogue/join_902/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/93/63/9363f0065fbad5689f44fcf6e203eef3.jpg",
+            "gbpprice": "35.67",
+            "sekprice": 436.12
+        },
+        {
+            "title": "William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4)",
+            "booklink": "https://books.toscrape.com/catalogue/william-shakespeares-star-wars-verily-a-new-hope-william-shakespeares-star-wars-4_871/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/02/37/0237b445efc18c5562355a5a2c40889c.jpg",
+            "gbpprice": "43.30",
+            "sekprice": 529.41
+        },
+        {
+            "title": "The Project",
+            "booklink": "https://books.toscrape.com/catalogue/the-project_856/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/10/6e/106e2fc7160712edf8e2ff996dc8cd6c.jpg",
+            "gbpprice": "10.65",
+            "sekprice": 130.21
+        },
+        {
+            "title": "Soft Apocalypse",
+            "booklink": "https://books.toscrape.com/catalogue/soft-apocalypse_833/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/f0/06/f0060c756556b855184fa32f66280961.jpg",
+            "gbpprice": "26.12",
+            "sekprice": 319.36
+        },
+        {
+            "title": "Sleeping Giants (Themis Files #1)",
+            "booklink": "https://books.toscrape.com/catalogue/sleeping-giants-themis-files-1_604/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/c0/72/c072c1ef144d571abd25fe9cc18cceba.jpg",
+            "gbpprice": "48.74",
+            "sekprice": 595.93
+        },
+        {
+            "title": "Arena",
+            "booklink": "https://books.toscrape.com/catalogue/arena_587/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/51/88/518810d182843244a404f2a2a614a93b.jpg",
+            "gbpprice": "21.36",
+            "sekprice": 261.16
+        },
+        {
+            "title": "Foundation (Foundation (Publication Order) #1)",
+            "booklink": "https://books.toscrape.com/catalogue/foundation-foundation-publication-order-1_375/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/8b/92/8b9267df86378b6973974ae7e1924ffe.jpg",
+            "gbpprice": "32.42",
+            "sekprice": 396.39
+        },
+        {
+            "title": "The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy #2)",
+            "booklink": "https://books.toscrape.com/catalogue/the-restaurant-at-the-end-of-the-universe-hitchhikers-guide-to-the-galaxy-2_275/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/b8/b2/b8b2956acc758a381beef87339c0a52f.jpg",
+            "gbpprice": "10.92",
+            "sekprice": 133.52
+        },
+        {
+            "title": "Ready Player One",
+            "booklink": "https://books.toscrape.com/catalogue/ready-player-one_209/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/51/34/513418bd1c6114f3ea1fd703278e20ef.jpg",
+            "gbpprice": "19.07",
+            "sekprice": 233.16
+        },
+        {
+            "title": "Life, the Universe and Everything (Hitchhiker's Guide to the Galaxy #3)",
+            "booklink": "https://books.toscrape.com/catalogue/life-the-universe-and-everything-hitchhikers-guide-to-the-galaxy-3_189/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ef/8b/ef8bc5adcd3bea8e8ba97be76d07a32a.jpg",
+            "gbpprice": "33.26",
+            "sekprice": 406.66
+        },
+        {
+            "title": "Dune (Dune #1)",
+            "booklink": "https://books.toscrape.com/catalogue/dune-dune-1_151/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/7a/bc/7abccb865ecf9b0f676800b10c71cfd6.jpg",
+            "gbpprice": "54.86",
+            "sekprice": 670.75
+        },
+        {
+            "title": "Do Androids Dream of Electric Sheep? (Blade Runner #1)",
+            "booklink": "https://books.toscrape.com/catalogue/do-androids-dream-of-electric-sheep-blade-runner-1_149/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/fa/65/fa653fbe3a4c69227c9b79d471cee576.jpg",
+            "gbpprice": "51.48",
+            "sekprice": 629.43
+        },
+        {
+            "title": "Three Wishes (River of Time: California #1)",
+            "booklink": "https://books.toscrape.com/catalogue/three-wishes-river-of-time-california-1_89/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/c7/21/c721943edf481cad5ab32505e2ad3865.jpg",
+            "gbpprice": "44.18",
+            "sekprice": 540.17
+        },
+        {
+            "title": "The Last Girl (The Dominion Trilogy #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-last-girl-the-dominion-trilogy-1_70/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/da/47/da4746e620f8ccd7cf20628d1a5e535a.jpg",
+            "gbpprice": "36.26",
+            "sekprice": 443.34
+        },
+        {
+            "title": "Having the Barbarian's Baby (Ice Planet Barbarians #7.5)",
+            "booklink": "https://books.toscrape.com/catalogue/having-the-barbarians-baby-ice-planet-barbarians-75_23/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/f4/83/f4835e9f3fdd8b8107bbb39a391654f0.jpg",
+            "gbpprice": "34.96",
+            "sekprice": 427.44
+        }
+    ]
+}

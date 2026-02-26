@@ -1,0 +1,606 @@
+{
+    "category": "Sequential Art",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html",
+    "books": [
+        {
+            "title": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+            "booklink": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg",
+            "gbpprice": "52.29",
+            "sekprice": 639.33
+        },
+        {
+            "title": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+            "booklink": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/36/df/36df4caaf1420b1183a8235355d39e69.jpg",
+            "gbpprice": "16.28",
+            "sekprice": 199.05
+        },
+        {
+            "title": "This One Summer",
+            "booklink": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/c4/dd/c4ddd9ced89966b0602ec85e00cd5b61.jpg",
+            "gbpprice": "19.49",
+            "sekprice": 238.3
+        },
+        {
+            "title": "The Nameless City (The Nameless City #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-nameless-city-the-nameless-city-1_940/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/f4/79/f479de5f305c2ac0512702cf7155bb74.jpg",
+            "gbpprice": "38.16",
+            "sekprice": 466.57
+        },
+        {
+            "title": "Saga, Volume 5 (Saga (Collected Editions) #5)",
+            "booklink": "https://books.toscrape.com/catalogue/saga-volume-5-saga-collected-editions-5_923/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/e1/ea/e1ea6cb36e62ae6dc7b805f68ab9a700.jpg",
+            "gbpprice": "51.04",
+            "sekprice": 624.05
+        },
+        {
+            "title": "Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)",
+            "booklink": "https://books.toscrape.com/catalogue/rat-queens-vol-3-demons-rat-queens-collected-editions-11-15_921/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/f3/ef/f3efd43ae0fa85d9b325d5e8783e7af5.jpg",
+            "gbpprice": "50.40",
+            "sekprice": 616.22
+        },
+        {
+            "title": "Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)",
+            "booklink": "https://books.toscrape.com/catalogue/princess-jellyfish-2-in-1-omnibus-vol-01-princess-jellyfish-2-in-1-omnibus-1_920/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/78/0b/780b2c28122750c2c383846155815bf7.jpg",
+            "gbpprice": "13.61",
+            "sekprice": 166.4
+        },
+        {
+            "title": "Pop Gun War, Volume 1: Gift",
+            "booklink": "https://books.toscrape.com/catalogue/pop-gun-war-volume-1-gift_918/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/c8/2f/c82f629a31b3f47bdb17ac14aa51076d.jpg",
+            "gbpprice": "18.97",
+            "sekprice": 231.94
+        },
+        {
+            "title": "Patience",
+            "booklink": "https://books.toscrape.com/catalogue/patience_916/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/01/72/01726c619a05114dca75bd840095016d.jpg",
+            "gbpprice": "10.16",
+            "sekprice": 124.22
+        },
+        {
+            "title": "Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)",
+            "booklink": "https://books.toscrape.com/catalogue/outcast-vol-1-a-darkness-surrounds-him-outcast-1_915/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/cb/00/cb004189f548d75ad430d3ed19e6daa9.jpg",
+            "gbpprice": "15.44",
+            "sekprice": 188.78
+        },
+        {
+            "title": "orange: The Complete Collection 1 (orange: The Complete Collection #1)",
+            "booklink": "https://books.toscrape.com/catalogue/orange-the-complete-collection-1-orange-the-complete-collection-1_914/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/03/88/03886a8502ca54dbce0d91c2568ab69d.jpg",
+            "gbpprice": "48.41",
+            "sekprice": 591.89
+        },
+        {
+            "title": "Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)",
+            "booklink": "https://books.toscrape.com/catalogue/lumberjanes-vol-2-friendship-to-the-max-lumberjanes-5-8_907/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/d3/15/d3158e8d3546fb90cced3c1d44a92a34.jpg",
+            "gbpprice": "46.91",
+            "sekprice": 573.55
+        },
+        {
+            "title": "Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)",
+            "booklink": "https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/7e/a0/7ea062007ef00107e3c16d336b41fab2.jpg",
+            "gbpprice": "45.61",
+            "sekprice": 557.66
+        },
+        {
+            "title": "Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12)",
+            "booklink": "https://books.toscrape.com/catalogue/lumberjanes-vol-3-a-terrible-plan-lumberjanes-9-12_905/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/5f/b1/5fb1bf88dcfda795606745ce35be5975.jpg",
+            "gbpprice": "19.92",
+            "sekprice": 243.55
+        },
+        {
+            "title": "I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5)",
+            "booklink": "https://books.toscrape.com/catalogue/i-hate-fairyland-vol-1-madly-ever-after-i-hate-fairyland-compilations-1-5_899/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/aa/74/aa74004807e97a79aa084b5db329a99b.jpg",
+            "gbpprice": "29.17",
+            "sekprice": 356.65
+        },
+        {
+            "title": "I am a Hero Omnibus Volume 1",
+            "booklink": "https://books.toscrape.com/catalogue/i-am-a-hero-omnibus-volume-1_898/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/16/d4/16d443437126bf6d536a89312c1995a5.jpg",
+            "gbpprice": "54.63",
+            "sekprice": 667.94
+        },
+        {
+            "title": "Giant Days, Vol. 2 (Giant Days #5-8)",
+            "booklink": "https://books.toscrape.com/catalogue/giant-days-vol-2-giant-days-5-8_895/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/90/6f/906f0168b0e155a7077625499b1737b5.jpg",
+            "gbpprice": "22.11",
+            "sekprice": 270.33
+        },
+        {
+            "title": "Danganronpa Volume 1",
+            "booklink": "https://books.toscrape.com/catalogue/danganronpa-volume-1_889/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/78/97/7897eea91c4a85aca58d925861d4afec.jpg",
+            "gbpprice": "51.99",
+            "sekprice": 635.66
+        },
+        {
+            "title": "Codename Baboushka, Volume 1: The Conclave of Death",
+            "booklink": "https://books.toscrape.com/catalogue/codename-baboushka-volume-1-the-conclave-of-death_887/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/f6/88/f688a9d6a89fdf38e4e88439ee9eda69.jpg",
+            "gbpprice": "36.72",
+            "sekprice": 448.96
+        },
+        {
+            "title": "Camp Midnight",
+            "booklink": "https://books.toscrape.com/catalogue/camp-midnight_886/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/dd/c9/ddc95df6754df8e71bf969c088056188.jpg",
+            "gbpprice": "17.08",
+            "sekprice": 208.83
+        },
+        {
+            "title": "Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions))",
+            "booklink": "https://books.toscrape.com/catalogue/bitch-planet-vol-1-extraordinary-machine-bitch-planet-collected-editions_882/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/e4/1d/e41d34204a1fffbf825d8beb3dbf4cbc.jpg",
+            "gbpprice": "37.92",
+            "sekprice": 463.63
+        },
+        {
+            "title": "The Shadow Hero (The Shadow Hero)",
+            "booklink": "https://books.toscrape.com/catalogue/the-shadow-hero-the-shadow-hero_860/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/1f/62/1f621dda1b302fc16d83d94b0b5ac31c.jpg",
+            "gbpprice": "33.14",
+            "sekprice": 405.19
+        },
+        {
+            "title": "Fables, Vol. 1: Legends in Exile (Fables #1)",
+            "booklink": "https://books.toscrape.com/catalogue/fables-vol-1-legends-in-exile-fables-1_806/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/51/8c/518c184a793b751b43045637c8002eb7.jpg",
+            "gbpprice": "41.62",
+            "sekprice": 508.87
+        },
+        {
+            "title": "Batman: The Long Halloween (Batman)",
+            "booklink": "https://books.toscrape.com/catalogue/batman-the-long-halloween-batman_793/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/78/a7/78a7f184a4d6d62412861c68f1c3ad90.jpg",
+            "gbpprice": "36.50",
+            "sekprice": 446.27
+        },
+        {
+            "title": "Batman: The Dark Knight Returns (Batman)",
+            "booklink": "https://books.toscrape.com/catalogue/batman-the-dark-knight-returns-batman_792/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/be/a9/bea95dbd7b2a843519c9a1dcfc433f9b.jpg",
+            "gbpprice": "15.38",
+            "sekprice": 188.05
+        },
+        {
+            "title": "Wonder Woman: Earth One, Volume One (Wonder Woman: Earth One #1)",
+            "booklink": "https://books.toscrape.com/catalogue/wonder-woman-earth-one-volume-one-wonder-woman-earth-one-1_783/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/19/39/19396172462f4cc0504d4e6e8b0e1647.jpg",
+            "gbpprice": "37.34",
+            "sekprice": 456.54
+        },
+        {
+            "title": "We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1)",
+            "booklink": "https://books.toscrape.com/catalogue/we-are-robin-vol-1-the-vigilante-business-we-are-robin-1_778/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/66/d6/66d6d2b4c0acfa8f40ad0285186ed2d8.jpg",
+            "gbpprice": "53.90",
+            "sekprice": 659.02
+        },
+        {
+            "title": "Through the Woods",
+            "booklink": "https://books.toscrape.com/catalogue/through-the-woods_772/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/4c/af/4caf8f2a5ee8828d408cc8faadd3419c.jpg",
+            "gbpprice": "25.38",
+            "sekprice": 310.31
+        },
+        {
+            "title": "Superman Vol. 1: Before Truth (Superman by Gene Luen Yang #1)",
+            "booklink": "https://books.toscrape.com/catalogue/superman-vol-1-before-truth-superman-by-gene-luen-yang-1_739/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/7e/c0/7ec0e9ca6153a23b2024b7df7407ee84.jpg",
+            "gbpprice": "11.89",
+            "sekprice": 145.37
+        },
+        {
+            "title": "So Cute It Hurts!!, Vol. 6 (So Cute It Hurts!! #6)",
+            "booklink": "https://books.toscrape.com/catalogue/so-cute-it-hurts-vol-6-so-cute-it-hurts-6_734/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/b2/48/b2484d13793ff1c4271a3d4023d4d24e.jpg",
+            "gbpprice": "35.43",
+            "sekprice": 433.19
+        },
+        {
+            "title": "Robin War",
+            "booklink": "https://books.toscrape.com/catalogue/robin-war_730/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/45/1d/451d3543022242b8b245793e6b5c26bb.jpg",
+            "gbpprice": "47.82",
+            "sekprice": 584.68
+        },
+        {
+            "title": "Red Hood/Arsenal, Vol. 1: Open for Business (Red Hood/Arsenal #1)",
+            "booklink": "https://books.toscrape.com/catalogue/red-hoodarsenal-vol-1-open-for-business-red-hoodarsenal-1_729/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/da/78/da78757466c3b0a2c89f0ddf6b5e642f.jpg",
+            "gbpprice": "25.48",
+            "sekprice": 311.54
+        },
+        {
+            "title": "Naruto (3-in-1 Edition), Vol. 14: Includes Vols. 40, 41 & 42 (Naruto: Omnibus #14)",
+            "booklink": "https://books.toscrape.com/catalogue/naruto-3-in-1-edition-vol-14-includes-vols-40-41-42-naruto-omnibus-14_721/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/c8/22/c822360ce0f91c40f7a0491c22287646.jpg",
+            "gbpprice": "38.39",
+            "sekprice": 469.38
+        },
+        {
+            "title": "Lowriders to the Center of the Earth (Lowriders in Space #2)",
+            "booklink": "https://books.toscrape.com/catalogue/lowriders-to-the-center-of-the-earth-lowriders-in-space-2_712/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/b2/97/b2978e96069dd91785e5ab0bc99c022e.jpg",
+            "gbpprice": "51.51",
+            "sekprice": 629.8
+        },
+        {
+            "title": "El Deafo",
+            "booklink": "https://books.toscrape.com/catalogue/el-deafo_691/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/34/eb/34eb0f1b570d4f1f6ad106652f1ac6ff.jpg",
+            "gbpprice": "57.62",
+            "sekprice": 704.5
+        },
+        {
+            "title": "Batman: Europa",
+            "booklink": "https://books.toscrape.com/catalogue/batman-europa_668/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/f1/fe/f1fecf0ce9b5771e4d2c9619e8550988.jpg",
+            "gbpprice": "32.01",
+            "sekprice": 391.38
+        },
+        {
+            "title": "Art Ops Vol. 1",
+            "booklink": "https://books.toscrape.com/catalogue/art-ops-vol-1_664/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/0b/b4/0bb4c64f1522c033368df5567a349472.jpg",
+            "gbpprice": "48.80",
+            "sekprice": 596.66
+        },
+        {
+            "title": "Adulthood Is a Myth: A \"Sarah's Scribbles\" Collection",
+            "booklink": "https://books.toscrape.com/catalogue/adulthood-is-a-myth-a-sarahs-scribbles-collection_659/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/a2/b9/a2b974e5a66e7502c77d2e4632abe033.jpg",
+            "gbpprice": "10.90",
+            "sekprice": 133.27
+        },
+        {
+            "title": "Fruits Basket, Vol. 9 (Fruits Basket #9)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-9-fruits-basket-9_563/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/7c/ea/7cea6ff4f6f1427739b136db35fbfad4.jpg",
+            "gbpprice": "33.95",
+            "sekprice": 415.09
+        },
+        {
+            "title": "Roller Girl",
+            "booklink": "https://books.toscrape.com/catalogue/roller-girl_540/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/b8/bd/b8bd3e5bc547c7c851689a844c9db429.jpg",
+            "gbpprice": "14.10",
+            "sekprice": 172.4
+        },
+        {
+            "title": "Fruits Basket, Vol. 7 (Fruits Basket #7)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-7-fruits-basket-7_468/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/b4/36/b43672509477baa090e57ebeacbb28fb.jpg",
+            "gbpprice": "19.57",
+            "sekprice": 239.28
+        },
+        {
+            "title": "Fruits Basket, Vol. 6 (Fruits Basket #6)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-6-fruits-basket-6_427/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/94/1a/941a14dec32f0a949c38a325a715c138.jpg",
+            "gbpprice": "20.96",
+            "sekprice": 256.27
+        },
+        {
+            "title": "Death Note, Vol. 6: Give-and-Take (Death Note #6)",
+            "booklink": "https://books.toscrape.com/catalogue/death-note-vol-6-give-and-take-death-note-6_425/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/07/5c/075c210f5ce43b84d29646a54529d1bd.jpg",
+            "gbpprice": "36.39",
+            "sekprice": 444.93
+        },
+        {
+            "title": "Fruits Basket, Vol. 5 (Fruits Basket #5)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-5-fruits-basket-5_376/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/51/cf/51cf19c74f21a7043910615fefcf0847.jpg",
+            "gbpprice": "16.33",
+            "sekprice": 199.66
+        },
+        {
+            "title": "Death Note, Vol. 5: Whiteout (Death Note #5)",
+            "booklink": "https://books.toscrape.com/catalogue/death-note-vol-5-whiteout-death-note-5_368/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/4e/c1/4ec161cc09ee437c9eda6d437d232a11.jpg",
+            "gbpprice": "52.41",
+            "sekprice": 640.8
+        },
+        {
+            "title": "The Demon Prince of Momochi House, Vol. 4 (The Demon Prince of Momochi House #4)",
+            "booklink": "https://books.toscrape.com/catalogue/the-demon-prince-of-momochi-house-vol-4-the-demon-prince-of-momochi-house-4_344/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/47/71/477173fe3000a6da4b241c2e71a21418.jpg",
+            "gbpprice": "27.88",
+            "sekprice": 340.88
+        },
+        {
+            "title": "Fruits Basket, Vol. 4 (Fruits Basket #4)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-4-fruits-basket-4_321/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/38/79/38794d8729a111018260d931e7101de2.jpg",
+            "gbpprice": "50.44",
+            "sekprice": 616.71
+        },
+        {
+            "title": "The Wicked + The Divine, Vol. 3: Commercial Suicide (The Wicked + The Divine)",
+            "booklink": "https://books.toscrape.com/catalogue/the-wicked-the-divine-vol-3-commercial-suicide-the-wicked-the-divine_287/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/ee/ed/eeeddf8af9e6cc8c7f71c0e41de1b562.jpg",
+            "gbpprice": "14.41",
+            "sekprice": 176.19
+        },
+        {
+            "title": "The Sandman, Vol. 3: Dream Country (The Sandman (volumes) #3)",
+            "booklink": "https://books.toscrape.com/catalogue/the-sandman-vol-3-dream-country-the-sandman-volumes-3_279/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/bb/18/bb1845c22faea465cad3d556d22936a2.jpg",
+            "gbpprice": "55.55",
+            "sekprice": 679.19
+        },
+        {
+            "title": "Saga, Volume 3 (Saga (Collected Editions) #3)",
+            "booklink": "https://books.toscrape.com/catalogue/saga-volume-3-saga-collected-editions-3_216/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/d8/fd/d8fd30b3e5781e880a3efe4c9495b417.jpg",
+            "gbpprice": "21.57",
+            "sekprice": 263.73
+        },
+        {
+            "title": "Prodigy: The Graphic Novel (Legend: The Graphic Novel #2)",
+            "booklink": "https://books.toscrape.com/catalogue/prodigy-the-graphic-novel-legend-the-graphic-novel-2_207/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/c9/a5/c9a559e3ba407c1d70ebfc4e2f0d82db.jpg",
+            "gbpprice": "43.63",
+            "sekprice": 533.45
+        },
+        {
+            "title": "Persepolis: The Story of a Childhood (Persepolis #1-2)",
+            "booklink": "https://books.toscrape.com/catalogue/persepolis-the-story-of-a-childhood-persepolis-1-2_206/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/14/98/14987a55d9609e706d2619814e2a8b0a.jpg",
+            "gbpprice": "39.13",
+            "sekprice": 478.43
+        },
+        {
+            "title": "Original Fake",
+            "booklink": "https://books.toscrape.com/catalogue/original-fake_203/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/e7/29/e72934871f9b42a807d976670a446e12.jpg",
+            "gbpprice": "31.45",
+            "sekprice": 384.53
+        },
+        {
+            "title": "Grayson, Vol 3: Nemesis (Grayson #3)",
+            "booklink": "https://books.toscrape.com/catalogue/grayson-vol-3-nemesis-grayson-3_164/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/f9/4c/f94cfc3c82abb799568d1ea029b1d3d1.jpg",
+            "gbpprice": "42.72",
+            "sekprice": 522.32
+        },
+        {
+            "title": "Fruits Basket, Vol. 3 (Fruits Basket #3)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-3-fruits-basket-3_159/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/7b/e7/7be75475a916d6df4edebfc5fe36c3f9.jpg",
+            "gbpprice": "45.17",
+            "sekprice": 552.28
+        },
+        {
+            "title": "Black Butler, Vol. 1 (Black Butler #1)",
+            "booklink": "https://books.toscrape.com/catalogue/black-butler-vol-1-black-butler-1_130/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/99/48/9948564dec3ac2f9e32419911b181e37.jpg",
+            "gbpprice": "49.31",
+            "sekprice": 602.9
+        },
+        {
+            "title": "Awkward",
+            "booklink": "https://books.toscrape.com/catalogue/awkward_124/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/41/72/417255e608c389aedfb68491dae92c9c.jpg",
+            "gbpprice": "38.02",
+            "sekprice": 464.86
+        },
+        {
+            "title": "The Sandman, Vol. 2: The Doll's House (The Sandman (volumes) #2)",
+            "booklink": "https://books.toscrape.com/catalogue/the-sandman-vol-2-the-dolls-house-the-sandman-volumes-2_110/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/e3/ae/e3ae48fe07d77611b49b5b78d99418ae.jpg",
+            "gbpprice": "54.81",
+            "sekprice": 670.14
+        },
+        {
+            "title": "Saga, Volume 2 (Saga (Collected Editions) #2)",
+            "booklink": "https://books.toscrape.com/catalogue/saga-volume-2-saga-collected-editions-2_107/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/1a/eb/1aeb5d30809ad96d7c323228a2bd23d3.jpg",
+            "gbpprice": "11.75",
+            "sekprice": 143.66
+        },
+        {
+            "title": "Fruits Basket, Vol. 2 (Fruits Basket #2)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-2-fruits-basket-2_100/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/e9/fb/e9fb3236b73384253144f89b6eec6a68.jpg",
+            "gbpprice": "11.64",
+            "sekprice": 142.32
+        },
+        {
+            "title": "Y: The Last Man, Vol. 1: Unmanned (Y: The Last Man #1)",
+            "booklink": "https://books.toscrape.com/catalogue/y-the-last-man-vol-1-unmanned-y-the-last-man-1_98/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/ae/16/ae169bb5ae814e0fb900cdf9e99332a7.jpg",
+            "gbpprice": "18.51",
+            "sekprice": 226.32
+        },
+        {
+            "title": "The Wicked + The Divine, Vol. 1: The Faust Act (The Wicked + The Divine)",
+            "booklink": "https://books.toscrape.com/catalogue/the-wicked-the-divine-vol-1-the-faust-act-the-wicked-the-divine_86/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/64/75/64752f8cdae54b164fb81bfd81accd55.jpg",
+            "gbpprice": "36.52",
+            "sekprice": 446.52
+        },
+        {
+            "title": "The Sandman, Vol. 1: Preludes and Nocturnes (The Sandman (volumes) #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-sandman-vol-1-preludes-and-nocturnes-the-sandman-volumes-1_79/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/56/ea/56eac75378feb4cab0dcb9d2101cf58b.jpg",
+            "gbpprice": "54.12",
+            "sekprice": 661.71
+        },
+        {
+            "title": "The Complete Maus (Maus #1-2)",
+            "booklink": "https://books.toscrape.com/catalogue/the-complete-maus-maus-1-2_62/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/a6/f8/a6f889e0ba02be31875d3a324090ef5e.jpg",
+            "gbpprice": "10.64",
+            "sekprice": 130.09
+        },
+        {
+            "title": "Skip Beat!, Vol. 01 (Skip Beat! #1)",
+            "booklink": "https://books.toscrape.com/catalogue/skip-beat-vol-01-skip-beat-1_55/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/6c/60/6c607509837e2b362ffd7c0e15e7b1f9.jpg",
+            "gbpprice": "42.12",
+            "sekprice": 514.99
+        },
+        {
+            "title": "Saga, Volume 1 (Saga (Collected Editions) #1)",
+            "booklink": "https://books.toscrape.com/catalogue/saga-volume-1-saga-collected-editions-1_48/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/c6/ca/c6cab3f679acb45fd2eba092ec9f6a2a.jpg",
+            "gbpprice": "28.48",
+            "sekprice": 348.22
+        },
+        {
+            "title": "Rat Queens, Vol. 1: Sass & Sorcery (Rat Queens (Collected Editions) #1-5)",
+            "booklink": "https://books.toscrape.com/catalogue/rat-queens-vol-1-sass-sorcery-rat-queens-collected-editions-1-5_46/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/0d/22/0d22f9ee696b7443d1573e7752645c6d.jpg",
+            "gbpprice": "46.96",
+            "sekprice": 574.16
+        },
+        {
+            "title": "Paper Girls, Vol. 1 (Paper Girls #1-5)",
+            "booklink": "https://books.toscrape.com/catalogue/paper-girls-vol-1-paper-girls-1-5_44/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/87/2b/872ba3b06a97e6662770bc2152595b84.jpg",
+            "gbpprice": "21.71",
+            "sekprice": 265.44
+        },
+        {
+            "title": "Ouran High School Host Club, Vol. 1 (Ouran High School Host Club #1)",
+            "booklink": "https://books.toscrape.com/catalogue/ouran-high-school-host-club-vol-1-ouran-high-school-host-club-1_43/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/d5/c5/d5c5a6ebf05b68bee78a38a8ea62305d.jpg",
+            "gbpprice": "29.87",
+            "sekprice": 365.21
+        },
+        {
+            "title": "Ms. Marvel, Vol. 1: No Normal (Ms. Marvel (2014-2015) #1)",
+            "booklink": "https://books.toscrape.com/catalogue/ms-marvel-vol-1-no-normal-ms-marvel-2014-2015-1_34/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/f4/96/f496db4d78639e233978ae2bee021752.jpg",
+            "gbpprice": "39.39",
+            "sekprice": 481.61
+        },
+        {
+            "title": "Hawkeye, Vol. 1: My Life as a Weapon (Hawkeye #1)",
+            "booklink": "https://books.toscrape.com/catalogue/hawkeye-vol-1-my-life-as-a-weapon-hawkeye-1_24/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/16/46/16460146a1a8b99c82da027368383ade.jpg",
+            "gbpprice": "45.24",
+            "sekprice": 553.13
+        },
+        {
+            "title": "Giant Days, Vol. 1 (Giant Days #1-4)",
+            "booklink": "https://books.toscrape.com/catalogue/giant-days-vol-1-giant-days-1-4_22/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/35/0b/350b1224dc46533851d5a34134e44842.jpg",
+            "gbpprice": "56.76",
+            "sekprice": 693.98
+        },
+        {
+            "title": "Fruits Basket, Vol. 1 (Fruits Basket #1)",
+            "booklink": "https://books.toscrape.com/catalogue/fruits-basket-vol-1-fruits-basket-1_21/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/7c/c1/7cc13a8fb238202250e87843c1a62f94.jpg",
+            "gbpprice": "40.28",
+            "sekprice": 492.49
+        },
+        {
+            "title": "Bleach, Vol. 1: Strawberry and the Soul Reapers (Bleach #1)",
+            "booklink": "https://books.toscrape.com/catalogue/bleach-vol-1-strawberry-and-the-soul-reapers-bleach-1_7/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/a8/38/a8383903c98af18b898b9d70d5be2c16.jpg",
+            "gbpprice": "34.65",
+            "sekprice": 423.65
+        },
+        {
+            "title": "Ajin: Demi-Human, Volume 1 (Ajin: Demi-Human #1)",
+            "booklink": "https://books.toscrape.com/catalogue/ajin-demi-human-volume-1-ajin-demi-human-1_4/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/09/7c/097cb5ecc6fb3fbe1690cf0cbdea4ac5.jpg",
+            "gbpprice": "57.06",
+            "sekprice": 697.65
+        }
+    ]
+}

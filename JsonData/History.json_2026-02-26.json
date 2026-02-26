@@ -1,0 +1,150 @@
+{
+    "category": "History",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/history_32/index.html",
+    "books": [
+        {
+            "title": "Sapiens: A Brief History of Humankind",
+            "booklink": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg",
+            "gbpprice": "54.23",
+            "sekprice": 663.05
+        },
+        {
+            "title": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+            "booklink": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/4a/3b/4a3b055f9e378a95fedbef55e7bab7ce.jpg",
+            "gbpprice": "25.52",
+            "sekprice": 312.02
+        },
+        {
+            "title": "The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind",
+            "booklink": "https://books.toscrape.com/catalogue/the-age-of-genius-the-seventeenth-century-and-the-birth-of-the-modern-mind_929/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/2d/4e/2d4e358712e6c9f1d3bdd78d1a16e5a8.jpg",
+            "gbpprice": "19.73",
+            "sekprice": 241.23
+        },
+        {
+            "title": "Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics",
+            "booklink": "https://books.toscrape.com/catalogue/political-suicide-missteps-peccadilloes-bad-calls-backroom-hijinx-sordid-pasts-rotten-breaks-and-just-plain-dumb-mistakes-in-the-annals-of-american-politics_917/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/64/44/6444dacdcb9edaadbbd691524622aeb8.jpg",
+            "gbpprice": "36.28",
+            "sekprice": 443.58
+        },
+        {
+            "title": "Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History",
+            "booklink": "https://books.toscrape.com/catalogue/thomas-jefferson-and-the-tripoli-pirates-the-forgotten-war-that-changed-american-history_867/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/97/47/974709d437b08e74649b5744471bf472.jpg",
+            "gbpprice": "59.64",
+            "sekprice": 729.2
+        },
+        {
+            "title": "Zealot: The Life and Times of Jesus of Nazareth",
+            "booklink": "https://books.toscrape.com/catalogue/zealot-the-life-and-times-of-jesus-of-nazareth_785/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/3d/60/3d6003fc37b842a07c2dbe28e47448e1.jpg",
+            "gbpprice": "24.70",
+            "sekprice": 302.0
+        },
+        {
+            "title": "A Distant Mirror: The Calamitous 14th Century",
+            "booklink": "https://books.toscrape.com/catalogue/a-distant-mirror-the-calamitous-14th-century_652/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/41/d5/41d5fa6a81cdbcbe6b0b15757a4c9144.jpg",
+            "gbpprice": "14.58",
+            "sekprice": 178.26
+        },
+        {
+            "title": "1491: New Revelations of the Americas Before Columbus",
+            "booklink": "https://books.toscrape.com/catalogue/1491-new-revelations-of-the-americas-before-columbus_650/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/88/75/8875f384ce9103281b7f6e86a2b8204d.jpg",
+            "gbpprice": "21.80",
+            "sekprice": 266.54
+        },
+        {
+            "title": "Brilliant Beacons: A History of the American Lighthouse",
+            "booklink": "https://books.toscrape.com/catalogue/brilliant-beacons-a-history-of-the-american-lighthouse_515/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/56/cb/56cb66d73fb438d64af14dce8bd8b22b.jpg",
+            "gbpprice": "11.45",
+            "sekprice": 140.0
+        },
+        {
+            "title": "\"Most Blessed of the Patriarchs\": Thomas Jefferson and the Empire of the Imagination",
+            "booklink": "https://books.toscrape.com/catalogue/most-blessed-of-the-patriarchs-thomas-jefferson-and-the-empire-of-the-imagination_509/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/11/af/11af7fbd6aec06a75fe207fae92b17e0.jpg",
+            "gbpprice": "44.48",
+            "sekprice": 543.84
+        },
+        {
+            "title": "A Short History of Nearly Everything",
+            "booklink": "https://books.toscrape.com/catalogue/a-short-history-of-nearly-everything_457/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/3c/f6/3cf646523ff7fb8647c500d6325cfcaf.jpg",
+            "gbpprice": "52.40",
+            "sekprice": 640.68
+        },
+        {
+            "title": "The Rise and Fall of the Third Reich: A History of Nazi Germany",
+            "booklink": "https://books.toscrape.com/catalogue/the-rise-and-fall-of-the-third-reich-a-history-of-nazi-germany_454/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/e1/02/e102cefae5bb523bc67eb6b49bc18b5d.jpg",
+            "gbpprice": "39.67",
+            "sekprice": 485.03
+        },
+        {
+            "title": "Catherine the Great: Portrait of a Woman",
+            "booklink": "https://books.toscrape.com/catalogue/catherine-the-great-portrait-of-a-woman_424/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/72/f1/72f13b8f069d3a018d2c378be5a1de20.jpg",
+            "gbpprice": "58.55",
+            "sekprice": 715.87
+        },
+        {
+            "title": "The Mathews Men: Seven Brothers and the War Against Hitler's U-boats",
+            "booklink": "https://books.toscrape.com/catalogue/the-mathews-men-seven-brothers-and-the-war-against-hitlers-u-boats_408/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/f2/64/f26457d65a03b2636c4bcc7c318f7346.jpg",
+            "gbpprice": "42.91",
+            "sekprice": 524.65
+        },
+        {
+            "title": "The Hiding Place",
+            "booklink": "https://books.toscrape.com/catalogue/the-hiding-place_406/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/cf/18/cf187c1dc5575fcbbf49c58024146c4b.jpg",
+            "gbpprice": "55.91",
+            "sekprice": 683.59
+        },
+        {
+            "title": "America's War for the Greater Middle East: A Military History",
+            "booklink": "https://books.toscrape.com/catalogue/americas-war-for-the-greater-middle-east-a-military-history_361/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/eb/17/eb178eceef1e9290591cabd5155571a3.jpg",
+            "gbpprice": "51.22",
+            "sekprice": 626.25
+        },
+        {
+            "title": "The Guns of August",
+            "booklink": "https://books.toscrape.com/catalogue/the-guns-of-august_254/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/06/c8/06c897070611b78b80a37333cbb7851c.jpg",
+            "gbpprice": "14.54",
+            "sekprice": 177.78
+        },
+        {
+            "title": "House of Lost Worlds: Dinosaurs, Dynasties, and the Story of Life on Earth",
+            "booklink": "https://books.toscrape.com/catalogue/house-of-lost-worlds-dinosaurs-dynasties-and-the-story-of-life-on-earth_170/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/43/fd/43fda1db93163d67705264dcfa98aaa5.jpg",
+            "gbpprice": "43.70",
+            "sekprice": 534.3
+        }
+    ]
+}
