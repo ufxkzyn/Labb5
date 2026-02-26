@@ -1,0 +1,118 @@
+{
+    "category": "Science",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/science_22/index.html",
+    "books": [
+        {
+            "title": "The Most Perfect Thing: Inside (and Outside) a Bird's Egg",
+            "booklink": "https://books.toscrape.com/catalogue/the-most-perfect-thing-inside-and-outside-a-birds-egg_938/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/d4/8d/d48d5122a15347e9fe2b15ad354d69bf.jpg",
+            "gbpprice": "42.96",
+            "sekprice": 525.26
+        },
+        {
+            "title": "Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine",
+            "booklink": "https://books.toscrape.com/catalogue/immunity-how-elie-metchnikoff-changed-the-course-of-modern-medicine_900/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/26/1c/261c4eaf957ae4aacf2229b482e76dbe.jpg",
+            "gbpprice": "57.36",
+            "sekprice": 701.32
+        },
+        {
+            "title": "Sorting the Beef from the Bull: The Science of Food Fraud Forensics",
+            "booklink": "https://books.toscrape.com/catalogue/sorting-the-beef-from-the-bull-the-science-of-food-fraud-forensics_736/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/68/ca/68caaf9ac41964d5167a3eb67c638393.jpg",
+            "gbpprice": "44.74",
+            "sekprice": 547.02
+        },
+        {
+            "title": "Tipping Point for Planet Earth: How Close Are We to the Edge?",
+            "booklink": "https://books.toscrape.com/catalogue/tipping-point-for-planet-earth-how-close-are-we-to-the-edge_643/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/56/97/5697f2f8f628129df01c5790985ffd9b.jpg",
+            "gbpprice": "37.55",
+            "sekprice": 459.11
+        },
+        {
+            "title": "The Fabric of the Cosmos: Space, Time, and the Texture of Reality",
+            "booklink": "https://books.toscrape.com/catalogue/the-fabric-of-the-cosmos-space-time-and-the-texture-of-reality_572/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/5e/7f/5e7f7d9913d4c95d33904770c518d537.jpg",
+            "gbpprice": "55.91",
+            "sekprice": 683.59
+        },
+        {
+            "title": "Diary of a Citizen Scientist: Chasing Tiger Beetles and Other New Ways of Engaging the World",
+            "booklink": "https://books.toscrape.com/catalogue/diary-of-a-citizen-scientist-chasing-tiger-beetles-and-other-new-ways-of-engaging-the-world_517/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/33/4f/334fd0ebdf0c0192baf5914d199c53b5.jpg",
+            "gbpprice": "28.41",
+            "sekprice": 347.36
+        },
+        {
+            "title": "The Origin of Species",
+            "booklink": "https://books.toscrape.com/catalogue/the-origin-of-species_499/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/da/0d/da0d13699a090516502257a4d7da623f.jpg",
+            "gbpprice": "10.01",
+            "sekprice": 122.39
+        },
+        {
+            "title": "The Grand Design",
+            "booklink": "https://books.toscrape.com/catalogue/the-grand-design_405/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/08/a9/08a957eb34f8047862e225774c3bdde2.jpg",
+            "gbpprice": "13.76",
+            "sekprice": 168.24
+        },
+        {
+            "title": "Peak: Secrets from the New Science of Expertise",
+            "booklink": "https://books.toscrape.com/catalogue/peak-secrets-from-the-new-science-of-expertise_389/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/83/ab/83ab65f938b24fa1a9cb47235be49b57.jpg",
+            "gbpprice": "16.28",
+            "sekprice": 199.05
+        },
+        {
+            "title": "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory",
+            "booklink": "https://books.toscrape.com/catalogue/the-elegant-universe-superstrings-hidden-dimensions-and-the-quest-for-the-ultimate-theory_245/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/69/c8/69c83860995cde393dbe6690ec3f1d4f.jpg",
+            "gbpprice": "13.03",
+            "sekprice": 159.31
+        },
+        {
+            "title": "The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements",
+            "booklink": "https://books.toscrape.com/catalogue/the-disappearing-spoon-and-other-true-tales-of-madness-love-and-the-history-of-the-world-from-the-periodic-table-of-the-elements_244/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/f9/69/f969969428b505970a46272fdcea00d3.jpg",
+            "gbpprice": "57.35",
+            "sekprice": 701.2
+        },
+        {
+            "title": "Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",
+            "booklink": "https://books.toscrape.com/catalogue/surely-youre-joking-mr-feynman-adventures-of-a-curious-character_227/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/f8/bc/f8bcd489d33473e0819beaecccd5ebac.jpg",
+            "gbpprice": "25.83",
+            "sekprice": 315.81
+        },
+        {
+            "title": "Seven Brief Lessons on Physics",
+            "booklink": "https://books.toscrape.com/catalogue/seven-brief-lessons-on-physics_219/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/c8/63/c863c222c130a1bc8685a1242dd2523d.jpg",
+            "gbpprice": "30.60",
+            "sekprice": 374.14
+        },
+        {
+            "title": "The Selfish Gene",
+            "booklink": "https://books.toscrape.com/catalogue/the-selfish-gene_81/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/08/14/0814f26516fb72b7391d0a742b5928a2.jpg",
+            "gbpprice": "29.45",
+            "sekprice": 360.08
+        }
+    ]
+}

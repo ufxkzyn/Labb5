@@ -1,6 +1,3 @@
-from locale import currency
-from wsgiref import headers
-
 from flask import Blueprint, jsonify, render_template, request, Flask
 import os  # Import the os module to cehck if json file exist or not
 import requests  # Import the requests module to make HTTP requests
@@ -11,8 +8,10 @@ import datetime
 
 BooksScraped = Blueprint('BooksScraped', __name__, template_folder='templates')
 
-Books_scraped_file = "books_cache.json"
-Full_book_list = 'Full_book_list.json'
+Full_book_list = './JsonData/Full_book_list' #. betyder leta specifikt här å sen gå in i jsondat
+
+global currentime  #might be stupid to put it as a global thing idk
+currenttime = datetime.datetime.now().strftime("%Y-%m-%d") #used to get the current time, this is used to check when the json file was created and decide if we should scrape again or not.
 
 
 @BooksScraped.route('/', methods=['GET'])
@@ -23,20 +22,45 @@ def index():
 #### function for opening the json ####
 @BooksScraped.route('/allbooks', methods=['GET', 'POST'])
 def get_books():
-    if os.path.exists(Full_book_list): #If the json file exsist we just open it
-        print("found")
-        with open(Full_book_list, 'r', encoding='utf-8') as file_pointer_exsisting_found:
-            data = json.load(file_pointer_exsisting_found)
-            source = "local_json_file"
-    else: #if it dosent exsist we make one
-        print('inget hittat, skapar fil')   
-        data = scrape_books()
-        source = 'live_web_scrape'
-        if data:
-            with open(Full_book_list,'w', encoding='utf-8') as file_pointer_new:
-                json.dump(data, file_pointer_new, ensure_ascii=False, indent=4)
-        convert_price(data)
-    return jsonify(data)
+    try:
+        if os.path.exists(f'{Full_book_list}_{currenttime}.json'): #If the json file exsist we just open it
+            print("found")
+            with open(f'{Full_book_list}_{currenttime}.json', encoding='utf-8') as file_pointer_exsisting_found:
+                data = json.load(file_pointer_exsisting_found)
+                source = "local_json_file"
+
+        else: #if it dosent exsist we make one
+            print('inget hittat, skapar fil och folder')   
+            if not os.path.exists('./JsonData'): #checks if the folder exsist, if not it makes one
+                os.mkdir('./JsonData') #makes the folder if it dosent exsist
+
+            data = scrape_books()
+            source = 'live_web_scrape'
+            if data:
+                with open(f'{Full_book_list}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_new:
+                    json.dump(data, file_pointer_new, ensure_ascii=False, indent=4)
+            convert_price(data)  ###convert_price() and split_json() is kept in the else loop to prevent bugs
+            split_json()
+        return (jsonify({"message": f"Books retrieved from {source}"}), 200)
+    except Exception as e:
+        print(f'Error, cant get books{e}')
+
+
+###function for splitting up the whole json file into smaller json files based on category #
+@BooksScraped.route('/splitjson', methods=['GET', 'POST'])
+def split_json():
+    try:
+        with open(f'{Full_book_list}_{currenttime}.json', 'r', encoding='utf-8') as file_pointer_split:
+            temporary_split = json.load(file_pointer_split)
+            for category in temporary_split:
+                category_name = category['category'] #takes all categories and saves them in the .json file with their respective name
+                category_filename = f'./JsonData/{category_name}.json'
+                with open(f'{category_filename}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_category:
+                    json.dump(category, file_pointer_category, ensure_ascii=False, indent=4)  
+            return (jsonify({"message": "JSON file split successfully"}), 200)
+    except Exception as e:
+        print(f'Error, cant split json{e}')
+
 
 #### function for getting all the categories ####
 @BooksScraped.route('/allbooks', methods=['GET', 'POST'])
@@ -57,7 +81,7 @@ def scrape_books():
                 category_link = f"https://books.toscrape.com/{item['href']}"
                 category.append({
                     'category': category_name,
-                    'link': category_link,
+                    'categorylink': category_link,
                     'books': books_in_category(category_link)
                     })
         return category
@@ -69,52 +93,51 @@ def scrape_books():
 @BooksScraped.route('/convertprice', methods=['GET', 'POST'])
 def convert_price(category):
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-
     price_converted = []
 
 
     try:
-        currency_soup = requests.get("https://www.x-rates.com/table/?from=GBP&amount=1", headers=headers, timeout=10)
+        currency_soup = requests.get("https://www.x-rates.com/table/?from=GBP&amount=1", headers=headers, timeout=10) ### This site tried to avoid scraping so this might be unusable in the future
         currency_soup = BeautifulSoup(currency_soup.text, 'html.parser')
-        find_price = currency_soup.find('div', class_="moduleContent").find('table', class_="tablesorter ratesTable")    
+        find_price = currency_soup.find('div', class_="moduleContent").find('table', class_="tablesorter ratesTable")
 
-        ###refactorizera detta till eegen funktion
-        for currency_finder in find_price.find_all('tr'):
-            if 'Swedish Krona' in currency_finder.get_text():
-                print(currency_finder.get_text())
-                print('found the price')
-                price_converted.append({
-                    'currency': 'SEK',
-                    'price': currency_finder.find_all('td')[1].get_text()
-                })
+        price_converted = get_conversion_rate(find_price) 
 
-        with open(Full_book_list, 'r', encoding='utf-8') as file_pointer_converting:
+        with open(f'{Full_book_list}_{currenttime}.json', 'r', encoding='utf-8') as file_pointer_converting:
             file_currency_converter = json.load(file_pointer_converting)
+
             for categories in file_currency_converter:
-                for book in categories['books']:
+                for book in categories['books']: 
                     gbp_price = book['gbpprice']
-                    sek_price = round(float(gbp_price) * float(price_converted[0]['price']), 2) 
-                    print(f"GBP price: {gbp_price}, SEK price: {sek_price}")
+                    sek_price = round(float(gbp_price) * float(price_converted[0]['price']), 2) #gbpprice*conversion rate gives us the correct sek price, we also round it to 2 decimals for better presentation
                     category = {
                         'sekprice': sek_price,
                         'gbpprice': gbp_price
                     }
                     book.update(category)
 
-            with open(Full_book_list, 'w', encoding='utf-8') as file_pointer_converting:
+            with open(f'{Full_book_list}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_converting:
                 json.dump(file_currency_converter, file_pointer_converting, ensure_ascii=False, indent=4)
-
-            return jsonify({"message": "Prices converted successfully"}), 200
-
+            return (jsonify({"message": "Prices converted successfully"}), 200)
     except Exception as e:
         print(f'Error, cant convert price{e}')
-                
 
+
+#### refactorized the conversion rate ####
+@BooksScraped.route('/GBPtoSEK', methods=['GET', 'POST'])
+def get_conversion_rate(find_price):
+    price_converted = []
+    for currency_finder in find_price.find_all('tr'): #looks for the swedish krona in 'tr', notice this function might requrie updates incase they change layout
+        if 'Swedish Krona' in currency_finder.get_text():
+            price_converted.append({
+                'currency': 'SEK',
+                'price': currency_finder.find_all('td')[1].get_text()
+            })
+    return price_converted
 
 
 ####function for getting all the books in a category ####
-@BooksScraped.route('/failturetesting', methods=['GET', 'POST'])
-#category_link="https://books.toscrape.com/catalogue/category/books/mystery_3/index.html"
+@BooksScraped.route('/BooksByCategory', methods=['GET', 'POST'])
 def books_in_category(category_link):
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
     books = []
@@ -136,19 +159,20 @@ def books_in_category(category_link):
                     book_link = f"https://books.toscrape.com/catalogue/{book.find('h3').find('a')['href']}" #this tells us to go to h3, find 'a' then take the link
                     book_link = re.sub(r'/../../..', '', book_link) #used to find the /../../.. and substitute it with nothing. (unsure for the reason why the link is so sus) 
 
-                    
-
                     book_thumnail = f"https://books.toscrape.com/{book.find('img')['src']}" #same as above but for the thumbnail
                     book_thumnail = re.sub(r'/../../../..', '', book_thumnail)
 
+                    book_rating = book.find('p', class_='star-rating')['class'] #this tells us to go to p, find the star rating then take the second class which is the rating
                     book_title = book.find('h3').find('a')['title'] #this tells us to go to h3, find 'a' then take the title
                     book_price = book.find('p', class_='price_color').get_text().split('£') #this tells us to go to p, find price then remove the £ sign, still need to convert to sek 
+
                     books.append({
                         'title': book_title,
-                        'link': book_link,
+                        'booklink': book_link,
+                        'rating': book_rating[1],
                         'thumbnail': book_thumnail,
                         'gbpprice': book_price[1],
-                        'sekprice': 1
+                        'sekprice': 1 #placeholder value
                         
                     })
 

@@ -1,0 +1,14 @@
+{
+    "category": "Short Stories",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/short-stories_45/index.html",
+    "books": [
+        {
+            "title": "The Grownup",
+            "booklink": "https://books.toscrape.com/catalogue/the-grownup_546/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/f4/cb/f4cb1f9c7280bf1fd05fe33d2816080f.jpg",
+            "gbpprice": "35.88",
+            "sekprice": 438.69
+        }
+    ]
+}
