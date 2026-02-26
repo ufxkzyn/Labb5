@@ -1,0 +1,886 @@
+{
+    "category": "Nonfiction",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html",
+    "books": [
+        {
+            "title": "Worlds Elsewhere: Journeys Around Shakespeareâs Globe",
+            "booklink": "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/2e/98/2e98c332bf8563b584784971541c4445.jpg",
+            "gbpprice": "40.30",
+            "sekprice": 491.96
+        },
+        {
+            "title": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+            "booklink": "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/38/c5/38c56fba316c07305643a8065269594e.jpg",
+            "gbpprice": "31.05",
+            "sekprice": 379.04
+        },
+        {
+            "title": "Reasons to Stay Alive",
+            "booklink": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/cb/bd/cbbdb0222ee8a0f6ab61657412a15794.jpg",
+            "gbpprice": "26.41",
+            "sekprice": 322.4
+        },
+        {
+            "title": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+            "booklink": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/9c/46/9c463c7631c82401160fd3b554b8f0e1.jpg",
+            "gbpprice": "23.11",
+            "sekprice": 282.11
+        },
+        {
+            "title": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+            "booklink": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/41/a2/41a20f35adf0caea24f208dc01ad7681.jpg",
+            "gbpprice": "44.18",
+            "sekprice": 539.32
+        },
+        {
+            "title": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+            "booklink": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/03/86/038650c9e7517b4baf2a423cd8eed38f.jpg",
+            "gbpprice": "31.12",
+            "sekprice": 379.89
+        },
+        {
+            "title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+            "booklink": "https://books.toscrape.com/catalogue/the-life-changing-magic-of-tidying-up-the-japanese-art-of-decluttering-and-organizing_936/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/95/64/95647d6a526bf54120b9445e124794e1.jpg",
+            "gbpprice": "16.77",
+            "sekprice": 204.72
+        },
+        {
+            "title": "The Gutsy Girl: Escapades for Your Life of Epic Adventure",
+            "booklink": "https://books.toscrape.com/catalogue/the-gutsy-girl-escapades-for-your-life-of-epic-adventure_934/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/64/15/641570cd7e7aded53c7d33d78a9629f1.jpg",
+            "gbpprice": "37.13",
+            "sekprice": 453.26
+        },
+        {
+            "title": "The Electric Pencil: Drawings from Inside State Hospital No. 3",
+            "booklink": "https://books.toscrape.com/catalogue/the-electric-pencil-drawings-from-inside-state-hospital-no-3_933/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/2e/23/2e236e23ad52aa74505f224f6552eda8.jpg",
+            "gbpprice": "56.06",
+            "sekprice": 684.34
+        },
+        {
+            "title": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up",
+            "booklink": "https://books.toscrape.com/catalogue/spark-joy-an-illustrated-master-class-on-the-art-of-organizing-and-tidying-up_927/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/f3/4f/f34ffb24cc21c9f9f52dad4fd8f3ac21.jpg",
+            "gbpprice": "41.83",
+            "sekprice": 510.63
+        },
+        {
+            "title": "Reskilling America: Learning to Labor in the Twenty-First Century",
+            "booklink": "https://books.toscrape.com/catalogue/reskilling-america-learning-to-labor-in-the-twenty-first-century_922/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/97/f8/97f8debeeaaece9603267653076e760f.jpg",
+            "gbpprice": "19.83",
+            "sekprice": 242.07
+        },
+        {
+            "title": "In the Country We Love: My Family Divided",
+            "booklink": "https://books.toscrape.com/catalogue/in-the-country-we-love-my-family-divided_901/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/fe/ea/feeafd2ad7b3077f8e74cbb1da9e3c7d.jpg",
+            "gbpprice": "22.00",
+            "sekprice": 268.56
+        },
+        {
+            "title": "Everydata: The Misinformation Hidden in the Little Data You Consume Every Day",
+            "booklink": "https://books.toscrape.com/catalogue/everydata-the-misinformation-hidden-in-the-little-data-you-consume-every-day_891/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/64/94/6494bf61176ca73b61255909230030be.jpg",
+            "gbpprice": "54.35",
+            "sekprice": 663.47
+        },
+        {
+            "title": "Call the Nurse: True Stories of a Country Nurse on a Scottish Isle",
+            "booklink": "https://books.toscrape.com/catalogue/call-the-nurse-true-stories-of-a-country-nurse-on-a-scottish-isle_885/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/88/9e/889e0bac4c7c0e7178f0165b8d3b4617.jpg",
+            "gbpprice": "29.14",
+            "sekprice": 355.72
+        },
+        {
+            "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+            "booklink": "https://books.toscrape.com/catalogue/algorithms-to-live-by-the-computer-science-of-human-decisions_880/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/23/b4/23b42e094c02d52b14b11a960d49610e.jpg",
+            "gbpprice": "30.81",
+            "sekprice": 376.11
+        },
+        {
+            "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+            "booklink": "https://books.toscrape.com/catalogue/the-power-of-now-a-guide-to-spiritual-enlightenment_855/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/03/38/0338682e76bad3216cd4c6c28b2b625a.jpg",
+            "gbpprice": "43.54",
+            "sekprice": 531.51
+        },
+        {
+            "title": "The Omnivore's Dilemma: A Natural History of Four Meals",
+            "booklink": "https://books.toscrape.com/catalogue/the-omnivores-dilemma-a-natural-history-of-four-meals_854/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/14/f3/14f3d525e2a114cd71e27201a16af188.jpg",
+            "gbpprice": "38.21",
+            "sekprice": 466.44
+        },
+        {
+            "title": "The Genius of Birds",
+            "booklink": "https://books.toscrape.com/catalogue/the-genius-of-birds_843/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/13/57/1357c6aa40c9e63d2f931927fbf81f3f.jpg",
+            "gbpprice": "17.24",
+            "sekprice": 210.45
+        },
+        {
+            "title": "The Artist's Way: A Spiritual Path to Higher Creativity",
+            "booklink": "https://books.toscrape.com/catalogue/the-artists-way-a-spiritual-path-to-higher-creativity_839/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/0e/6d/0e6dc2484322c5b9e7854ced66fdf62d.jpg",
+            "gbpprice": "38.49",
+            "sekprice": 469.86
+        },
+        {
+            "title": "So You've Been Publicly Shamed",
+            "booklink": "https://books.toscrape.com/catalogue/so-youve-been-publicly-shamed_832/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/6e/d4/6ed4991d97f60db29ec7b421e61a2cf3.jpg",
+            "gbpprice": "12.23",
+            "sekprice": 149.3
+        },
+        {
+            "title": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",
+            "booklink": "https://books.toscrape.com/catalogue/daring-greatly-how-the-courage-to-be-vulnerable-transforms-the-way-we-live-love-parent-and-lead_799/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/55/ce/55ced903becc59121d6edb47a4dcfb56.jpg",
+            "gbpprice": "19.43",
+            "sekprice": 237.19
+        },
+        {
+            "title": "Big Magic: Creative Living Beyond Fear",
+            "booklink": "https://books.toscrape.com/catalogue/big-magic-creative-living-beyond-fear_796/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/62/ad/62ad9b4077416ddc0c4908062bca0e5e.jpg",
+            "gbpprice": "30.80",
+            "sekprice": 375.99
+        },
+        {
+            "title": "Becoming Wise: An Inquiry into the Mystery and Art of Living",
+            "booklink": "https://books.toscrape.com/catalogue/becoming-wise-an-inquiry-into-the-mystery-and-art-of-living_795/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ff/69/ff69c96b05affa03f647287e46210bf9.jpg",
+            "gbpprice": "27.43",
+            "sekprice": 334.85
+        },
+        {
+            "title": "Agnostic: A Spirited Manifesto",
+            "booklink": "https://books.toscrape.com/catalogue/agnostic-a-spirited-manifesto_786/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/9f/fc/9ffc43826233092d2acb4414f86627eb.jpg",
+            "gbpprice": "12.51",
+            "sekprice": 152.71
+        },
+        {
+            "title": "Whole Lotta Creativity Going On: 60 Fun and Unusual Exercises to Awaken and Strengthen Your Creativity",
+            "booklink": "https://books.toscrape.com/catalogue/whole-lotta-creativity-going-on-60-fun-and-unusual-exercises-to-awaken-and-strengthen-your-creativity_780/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/ba/36/ba368dfb2b6ae9979ff59d049c626167.jpg",
+            "gbpprice": "38.20",
+            "sekprice": 466.32
+        },
+        {
+            "title": "What's It Like in Space?: Stories from Astronauts Who've Been There",
+            "booklink": "https://books.toscrape.com/catalogue/whats-it-like-in-space-stories-from-astronauts-whove-been-there_779/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/43/b7/43b70859e93901b019791cef86539ffc.jpg",
+            "gbpprice": "19.60",
+            "sekprice": 239.26
+        },
+        {
+            "title": "The Year of Magical Thinking",
+            "booklink": "https://books.toscrape.com/catalogue/the-year-of-magical-thinking_770/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/bf/e5/bfe526c22c7c08235c27a6474ebb4db9.jpg",
+            "gbpprice": "43.04",
+            "sekprice": 525.4
+        },
+        {
+            "title": "The Literature Book (Big Ideas Simply Explained)",
+            "booklink": "https://books.toscrape.com/catalogue/the-literature-book-big-ideas-simply-explained_755/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/9e/ea/9eea51ac4a15d18aa976be459da30c47.jpg",
+            "gbpprice": "17.43",
+            "sekprice": 212.77
+        },
+        {
+            "title": "The Bad-Ass Librarians of Timbuktu: And Their Race to Save the Worldâs Most Precious Manuscripts",
+            "booklink": "https://books.toscrape.com/catalogue/the-bad-ass-librarians-of-timbuktu-and-their-race-to-save-the-worlds-most-precious-manuscripts_745/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/88/90/8890073a9c9e3bb696f6baa84fb4dd95.jpg",
+            "gbpprice": "15.77",
+            "sekprice": 192.51
+        },
+        {
+            "title": "Swell: A Year of Waves",
+            "booklink": "https://books.toscrape.com/catalogue/swell-a-year-of-waves_740/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/10/28/1028b2cf417e49dc1c14609e437a98e0.jpg",
+            "gbpprice": "45.58",
+            "sekprice": 556.41
+        },
+        {
+            "title": "No Dream Is Too High: Life Lessons From a Man Who Walked on the Moon",
+            "booklink": "https://books.toscrape.com/catalogue/no-dream-is-too-high-life-lessons-from-a-man-who-walked-on-the-moon_722/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/b5/6f/b56ff04effb66fe701a22abd4a7f1667.jpg",
+            "gbpprice": "21.95",
+            "sekprice": 267.95
+        },
+        {
+            "title": "Looking for Lovely: Collecting the Moments that Matter",
+            "booklink": "https://books.toscrape.com/catalogue/looking-for-lovely-collecting-the-moments-that-matter_710/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/61/1e/611e1804ad968e309a5f788d4ebc1cb4.jpg",
+            "gbpprice": "29.14",
+            "sekprice": 355.72
+        },
+        {
+            "title": "Let It Out: A Journey Through Journaling",
+            "booklink": "https://books.toscrape.com/catalogue/let-it-out-a-journey-through-journaling_708/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/51/fc/51fcd3e9384894e6a53a753d2ab856ee.jpg",
+            "gbpprice": "26.79",
+            "sekprice": 327.03
+        },
+        {
+            "title": "Hamilton: The Revolution",
+            "booklink": "https://books.toscrape.com/catalogue/hamilton-the-revolution_699/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/34/ef/34ef0844cb1fbca6ab73444087fcf0e6.jpg",
+            "gbpprice": "58.79",
+            "sekprice": 717.67
+        },
+        {
+            "title": "Far & Away: Places on the Brink of Change: Seven Continents, Twenty-Five Years",
+            "booklink": "https://books.toscrape.com/catalogue/far-away-places-on-the-brink-of-change-seven-continents-twenty-five-years_694/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/11/e2/11e227bdb5fe8b43dcc2366a157a47c2.jpg",
+            "gbpprice": "15.06",
+            "sekprice": 183.84
+        },
+        {
+            "title": "Eaternity: More than 150 Deliciously Easy Vegan Recipes for a Long, Healthy, Satisfied, Joyful Life",
+            "booklink": "https://books.toscrape.com/catalogue/eaternity-more-than-150-deliciously-easy-vegan-recipes-for-a-long-healthy-satisfied-joyful-life_689/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/b1/e1/b1e15eef42c0d71596f9f9ad4e9f48b0.jpg",
+            "gbpprice": "51.75",
+            "sekprice": 631.73
+        },
+        {
+            "title": "Buying In: The Secret Dialogue Between What We Buy and Who We Are",
+            "booklink": "https://books.toscrape.com/catalogue/buying-in-the-secret-dialogue-between-what-we-buy-and-who-we-are_670/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/f2/fa/f2faa289117546efa0b4068a07778ab0.jpg",
+            "gbpprice": "37.80",
+            "sekprice": 461.44
+        },
+        {
+            "title": "Brain on Fire: My Month of Madness",
+            "booklink": "https://books.toscrape.com/catalogue/brain-on-fire-my-month-of-madness_669/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/88/aa/88aad1204951e0900906173b086e6695.jpg",
+            "gbpprice": "49.32",
+            "sekprice": 602.07
+        },
+        {
+            "title": "Abstract City",
+            "booklink": "https://books.toscrape.com/catalogue/abstract-city_658/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/e7/70/e77019ebd71bcf6badb085bddf47c413.jpg",
+            "gbpprice": "56.37",
+            "sekprice": 688.13
+        },
+        {
+            "title": "13 Hours: The Inside Account of What Really Happened In Benghazi",
+            "booklink": "https://books.toscrape.com/catalogue/13-hours-the-inside-account-of-what-really-happened-in-benghazi_645/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/15/f7/15f78e0b04feb9b94e88865803cb5e9e.jpg",
+            "gbpprice": "27.06",
+            "sekprice": 330.33
+        },
+        {
+            "title": "The Lonely City: Adventures in the Art of Being Alone",
+            "booklink": "https://books.toscrape.com/catalogue/the-lonely-city-adventures-in-the-art-of-being-alone_639/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/5c/5e/5c5e527fea6b17199773bb175b515aee.jpg",
+            "gbpprice": "33.26",
+            "sekprice": 406.02
+        },
+        {
+            "title": "The Diary of a Young Girl",
+            "booklink": "https://books.toscrape.com/catalogue/the-diary-of-a-young-girl_634/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/83/d5/83d5526864a108d27fd4b03dd31ec18b.jpg",
+            "gbpprice": "59.90",
+            "sekprice": 731.22
+        },
+        {
+            "title": "Snatched: How A Drug Queen Went Undercover for the DEA and Was Kidnapped By Colombian Guerillas",
+            "booklink": "https://books.toscrape.com/catalogue/snatched-how-a-drug-queen-went-undercover-for-the-dea-and-was-kidnapped-by-colombian-guerillas_631/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/2a/f3/2af39796852729270fb23e05a662a42c.jpg",
+            "gbpprice": "21.21",
+            "sekprice": 258.92
+        },
+        {
+            "title": "Furiously Happy: A Funny Book About Horrible Things",
+            "booklink": "https://books.toscrape.com/catalogue/furiously-happy-a-funny-book-about-horrible-things_619/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/ab/2a/ab2ae4f02aa46271b4bfc77494039fc6.jpg",
+            "gbpprice": "41.46",
+            "sekprice": 506.12
+        },
+        {
+            "title": "The Sleep Revolution: Transforming Your Life, One Night at a Time",
+            "booklink": "https://books.toscrape.com/catalogue/the-sleep-revolution-transforming-your-life-one-night-at-a-time_608/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/3d/c5/3dc5455313710cf7055c060114e25bf0.jpg",
+            "gbpprice": "11.68",
+            "sekprice": 142.58
+        },
+        {
+            "title": "Mother, Can You Not?",
+            "booklink": "https://books.toscrape.com/catalogue/mother-can-you-not_599/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/ae/03/ae03f5d4d4c2ee038ac4c4ce9b71e592.jpg",
+            "gbpprice": "16.89",
+            "sekprice": 206.18
+        },
+        {
+            "title": "A Mother's Reckoning: Living in the Aftermath of Tragedy",
+            "booklink": "https://books.toscrape.com/catalogue/a-mothers-reckoning-living-in-the-aftermath-of-tragedy_585/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/28/58/285861a80930ffa7521dcb8bd19656e9.jpg",
+            "gbpprice": "19.53",
+            "sekprice": 238.41
+        },
+        {
+            "title": "10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Losing My Edge, and Found Self-Help That Actually Works",
+            "booklink": "https://books.toscrape.com/catalogue/10-happier-how-i-tamed-the-voice-in-my-head-reduced-stress-without-losing-my-edge-and-found-self-help-that-actually-works_582/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/40/b2/40b246cf12df5345dc0371c040fddb4b.jpg",
+            "gbpprice": "24.57",
+            "sekprice": 299.93
+        },
+        {
+            "title": "Chernobyl 01:23:40: The Incredible True Story of the World's Worst Nuclear Disaster",
+            "booklink": "https://books.toscrape.com/catalogue/chernobyl-012340-the-incredible-true-story-of-the-worlds-worst-nuclear-disaster_560/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/5e/76/5e76a5026bd17a5b484ae2a60eec0542.jpg",
+            "gbpprice": "35.92",
+            "sekprice": 438.49
+        },
+        {
+            "title": "Zero to One: Notes on Startups, or How to Build the Future",
+            "booklink": "https://books.toscrape.com/catalogue/zero-to-one-notes-on-startups-or-how-to-build-the-future_555/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/f4/8e/f48ee738bc992a68d08eadcb4338a547.jpg",
+            "gbpprice": "34.06",
+            "sekprice": 415.78
+        },
+        {
+            "title": "Why Not Me?",
+            "booklink": "https://books.toscrape.com/catalogue/why-not-me_554/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/31/a6/31a61c2587add91e55a85fec33e93d15.jpg",
+            "gbpprice": "17.76",
+            "sekprice": 216.8
+        },
+        {
+            "title": "When Breath Becomes Air",
+            "booklink": "https://books.toscrape.com/catalogue/when-breath-becomes-air_553/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/39/a5/39a5f0d3280010ca400eb4f5d262b950.jpg",
+            "gbpprice": "39.36",
+            "sekprice": 480.48
+        },
+        {
+            "title": "The Midnight Assassin: Panic, Scandal, and the Hunt for America's First Serial Killer",
+            "booklink": "https://books.toscrape.com/catalogue/the-midnight-assassin-panic-scandal-and-the-hunt-for-americas-first-serial-killer_549/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/82/6c/826c590f552ce717a2972649350c8030.jpg",
+            "gbpprice": "28.45",
+            "sekprice": 347.3
+        },
+        {
+            "title": "Smarter Faster Better: The Secrets of Being Productive in Life and Business",
+            "booklink": "https://books.toscrape.com/catalogue/smarter-faster-better-the-secrets-of-being-productive-in-life-and-business_543/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/21/88/21889b1eddaec853b02a41bdd06eef54.jpg",
+            "gbpprice": "38.89",
+            "sekprice": 474.74
+        },
+        {
+            "title": "Rising Strong",
+            "booklink": "https://books.toscrape.com/catalogue/rising-strong_539/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/3b/f3/3bf3c719382c03984ab9766803bed964.jpg",
+            "gbpprice": "21.82",
+            "sekprice": 266.36
+        },
+        {
+            "title": "Man's Search for Meaning",
+            "booklink": "https://books.toscrape.com/catalogue/mans-search-for-meaning_533/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/ed/ff/edffa2eec8d96b8ddcd53d5c2eff8453.jpg",
+            "gbpprice": "29.48",
+            "sekprice": 359.87
+        },
+        {
+            "title": "Love That Boy: What Two Presidents, Eight Road Trips, and My Son Taught Me About a Parent's Expectations",
+            "booklink": "https://books.toscrape.com/catalogue/love-that-boy-what-two-presidents-eight-road-trips-and-my-son-taught-me-about-a-parents-expectations_532/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/6d/1b/6d1b236549b8d5bc9e20786a25b7e7d1.jpg",
+            "gbpprice": "25.06",
+            "sekprice": 305.92
+        },
+        {
+            "title": "Living Forward: A Proven Plan to Stop Drifting and Get the Life You Want",
+            "booklink": "https://books.toscrape.com/catalogue/living-forward-a-proven-plan-to-stop-drifting-and-get-the-life-you-want_531/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/c9/76/c9767187068d80827d0967225ce3925d.jpg",
+            "gbpprice": "12.55",
+            "sekprice": 153.2
+        },
+        {
+            "title": "I Will Find You",
+            "booklink": "https://books.toscrape.com/catalogue/i-will-find-you_524/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/87/28/8728f8880e95b848021f6a9b3dcd07ca.jpg",
+            "gbpprice": "44.21",
+            "sekprice": 539.69
+        },
+        {
+            "title": "Brazen: The Courage to Find the You That's Been Hiding",
+            "booklink": "https://books.toscrape.com/catalogue/brazen-the-courage-to-find-the-you-thats-been-hiding_514/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/3a/4f/3a4fb30cfc5742f4726bc9f807b66cda.jpg",
+            "gbpprice": "19.22",
+            "sekprice": 234.62
+        },
+        {
+            "title": "Between the World and Me",
+            "booklink": "https://books.toscrape.com/catalogue/between-the-world-and-me_513/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/73/45/7345c412c4c821f131d3c159e027c3a0.jpg",
+            "gbpprice": "56.91",
+            "sekprice": 694.72
+        },
+        {
+            "title": "Being Mortal: Medicine and What Matters in the End",
+            "booklink": "https://books.toscrape.com/catalogue/being-mortal-medicine-and-what-matters-in-the-end_512/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/c7/7f/c77fdad22e40b8b923ec6c5b1f5a740f.jpg",
+            "gbpprice": "55.06",
+            "sekprice": 672.14
+        },
+        {
+            "title": "A Murder Over a Girl: Justice, Gender, Junior High",
+            "booklink": "https://books.toscrape.com/catalogue/a-murder-over-a-girl-justice-gender-junior-high_511/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/56/31/56313728d302c83f2a8c70fba635ce33.jpg",
+            "gbpprice": "13.20",
+            "sekprice": 161.14
+        },
+        {
+            "title": "For the Love: Fighting for Grace in a World of Impossible Standards",
+            "booklink": "https://books.toscrape.com/catalogue/for-the-love-fighting-for-grace-in-a-world-of-impossible-standards_467/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/a7/d8/a7d8fda2a874567aab8f61b2b141a5e2.jpg",
+            "gbpprice": "45.13",
+            "sekprice": 550.92
+        },
+        {
+            "title": "Finding God in the Ruins: How God Redeems Pain",
+            "booklink": "https://books.toscrape.com/catalogue/finding-god-in-the-ruins-how-god-redeems-pain_466/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ae/2c/ae2ce9662ed6da3de501ff87551ccb2d.jpg",
+            "gbpprice": "46.64",
+            "sekprice": 569.35
+        },
+        {
+            "title": "The Man Who Mistook His Wife for a Hat and Other Clinical Tales",
+            "booklink": "https://books.toscrape.com/catalogue/the-man-who-mistook-his-wife-for-a-hat-and-other-clinical-tales_451/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/92/fe/92fe1c1823653412fe68be2c525dfc3a.jpg",
+            "gbpprice": "59.45",
+            "sekprice": 725.73
+        },
+        {
+            "title": "In Cold Blood",
+            "booklink": "https://books.toscrape.com/catalogue/in-cold-blood_432/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/eb/4e/eb4ea9c04dccab509451ba31feb6b4e8.jpg",
+            "gbpprice": "49.98",
+            "sekprice": 610.12
+        },
+        {
+            "title": "Girl, Interrupted",
+            "booklink": "https://books.toscrape.com/catalogue/girl-interrupted_429/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/f9/ec/f9ec97bd8b29cc4e36d6c2b093d04709.jpg",
+            "gbpprice": "42.14",
+            "sekprice": 514.42
+        },
+        {
+            "title": "Why Save the Bankers?: And Other Essays on Our Economic and Political Crisis",
+            "booklink": "https://books.toscrape.com/catalogue/why-save-the-bankers-and-other-essays-on-our-economic-and-political-crisis_418/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/16/f5/16f545b2e14c16ed4bd0e098a0700b57.jpg",
+            "gbpprice": "48.67",
+            "sekprice": 594.13
+        },
+        {
+            "title": "Talking to Girls About Duran Duran: One Young Man's Quest for True Love and a Cooler Haircut",
+            "booklink": "https://books.toscrape.com/catalogue/talking-to-girls-about-duran-duran-one-young-mans-quest-for-true-love-and-a-cooler-haircut_394/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/07/8b/078b934613af473daf7ecf918e05d050.jpg",
+            "gbpprice": "25.15",
+            "sekprice": 307.01
+        },
+        {
+            "title": "My Mother Was Nuts",
+            "booklink": "https://books.toscrape.com/catalogue/my-mother-was-nuts_388/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/9b/b4/9bb42bf833e91193ca05badddded4bfb.jpg",
+            "gbpprice": "31.63",
+            "sekprice": 386.12
+        },
+        {
+            "title": "Data, A Love Story: How I Gamed Online Dating to Meet My Match",
+            "booklink": "https://books.toscrape.com/catalogue/data-a-love-story-how-i-gamed-online-dating-to-meet-my-match_367/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/1f/d8/1fd8340d9b3fd95861f0407b4dbb0fa7.jpg",
+            "gbpprice": "32.35",
+            "sekprice": 394.91
+        },
+        {
+            "title": "The Jazz of Physics: The Secret Link Between Music and the Structure of the Universe",
+            "booklink": "https://books.toscrape.com/catalogue/the-jazz-of-physics-the-secret-link-between-music-and-the-structure-of-the-universe_350/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/2d/32/2d32efe1c5f97510596a2cc21c5daf5d.jpg",
+            "gbpprice": "38.71",
+            "sekprice": 472.55
+        },
+        {
+            "title": "The Gunning of America: Business and the Making of American Gun Culture",
+            "booklink": "https://books.toscrape.com/catalogue/the-gunning-of-america-business-and-the-making-of-american-gun-culture_347/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/28/a8/28a8784d0b38b148a35bce421dc16910.jpg",
+            "gbpprice": "16.81",
+            "sekprice": 205.21
+        },
+        {
+            "title": "The Geography of Bliss: One Grump's Search for the Happiest Places in the World",
+            "booklink": "https://books.toscrape.com/catalogue/the-geography-of-bliss-one-grumps-search-for-the-happiest-places-in-the-world_346/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/bd/a0/bda0fa21e6d06862920c0eedecc6201e.jpg",
+            "gbpprice": "28.23",
+            "sekprice": 344.61
+        },
+        {
+            "title": "God Is Not Great: How Religion Poisons Everything",
+            "booklink": "https://books.toscrape.com/catalogue/god-is-not-great-how-religion-poisons-everything_323/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/d2/80/d280aed3d0c46653a9c33f76559e9e6d.jpg",
+            "gbpprice": "27.80",
+            "sekprice": 339.36
+        },
+        {
+            "title": "We the People: The Modern-Day Figures Who Have Reshaped and Affirmed the Founding Fathers' Vision of America",
+            "booklink": "https://books.toscrape.com/catalogue/we-the-people-the-modern-day-figures-who-have-reshaped-and-affirmed-the-founding-fathers-vision-of-america_302/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/f6/52/f65271ce557e9192537e24847bbb1210.jpg",
+            "gbpprice": "31.95",
+            "sekprice": 390.02
+        },
+        {
+            "title": "Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination",
+            "booklink": "https://books.toscrape.com/catalogue/very-good-lives-the-fringe-benefits-of-failure-and-the-importance-of-imagination_298/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/ab/ac/abac4222af5cc296b704a0e5df82e162.jpg",
+            "gbpprice": "50.66",
+            "sekprice": 618.42
+        },
+        {
+            "title": "Unstuffed: Decluttering Your Home, Mind, and Soul",
+            "booklink": "https://books.toscrape.com/catalogue/unstuffed-decluttering-your-home-mind-and-soul_296/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/14/07/1407c2d6318956b10abd970c2e83154d.jpg",
+            "gbpprice": "58.09",
+            "sekprice": 709.12
+        },
+        {
+            "title": "Under the Banner of Heaven: A Story of Violent Faith",
+            "booklink": "https://books.toscrape.com/catalogue/under-the-banner-of-heaven-a-story-of-violent-faith_295/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/14/2f/142f99787241bb65e031a76e74e14d1b.jpg",
+            "gbpprice": "30.00",
+            "sekprice": 366.22
+        },
+        {
+            "title": "Trespassing Across America: One Man's Epic, Never-Done-Before (and Sort of Illegal) Hike Across the Heartland",
+            "booklink": "https://books.toscrape.com/catalogue/trespassing-across-america-one-mans-epic-never-done-before-and-sort-of-illegal-hike-across-the-heartland_291/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/77/bc/77bcc3cde72998ee488ac169f7e4e540.jpg",
+            "gbpprice": "53.51",
+            "sekprice": 653.21
+        },
+        {
+            "title": "The Name of God is Mercy",
+            "booklink": "https://books.toscrape.com/catalogue/the-name-of-god-is-mercy_264/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/d2/41/d241ca89679593a589a6614162ab6eb6.jpg",
+            "gbpprice": "37.25",
+            "sekprice": 454.72
+        },
+        {
+            "title": "Stiff: The Curious Lives of Human Cadavers",
+            "booklink": "https://books.toscrape.com/catalogue/stiff-the-curious-lives-of-human-cadavers_226/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/a0/a0/a0a013b029130df92073f547df83ee5c.jpg",
+            "gbpprice": "36.74",
+            "sekprice": 448.5
+        },
+        {
+            "title": "Spilled Milk: Based on a True Story",
+            "booklink": "https://books.toscrape.com/catalogue/spilled-milk-based-on-a-true-story_225/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/a8/0d/a80d4310cab08a3660149fd3f2cf15c7.jpg",
+            "gbpprice": "49.51",
+            "sekprice": 604.38
+        },
+        {
+            "title": "Rise of the Rocket Girls: The Women Who Propelled Us, from Missiles to the Moon to Mars",
+            "booklink": "https://books.toscrape.com/catalogue/rise-of-the-rocket-girls-the-women-who-propelled-us-from-missiles-to-the-moon-to-mars_213/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/05/42/05428b0c7b79d0dbc521fd621e754083.jpg",
+            "gbpprice": "41.67",
+            "sekprice": 508.68
+        },
+        {
+            "title": "Outliers: The Story of Success",
+            "booklink": "https://books.toscrape.com/catalogue/outliers-the-story-of-success_204/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/70/37/70372ab3240019fbe2de6cd407c98675.jpg",
+            "gbpprice": "14.16",
+            "sekprice": 172.86
+        },
+        {
+            "title": "Notes from a Small Island (Notes From a Small Island #1)",
+            "booklink": "https://books.toscrape.com/catalogue/notes-from-a-small-island-notes-from-a-small-island-1_200/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/61/39/61393c43f7caaccaa07daccaa8530736.jpg",
+            "gbpprice": "40.17",
+            "sekprice": 490.37
+        },
+        {
+            "title": "Night (The Night Trilogy #1)",
+            "booklink": "https://books.toscrape.com/catalogue/night-the-night-trilogy-1_199/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/e3/cc/e3ccf96311f9c1b9e9ecc80e16c05f4e.jpg",
+            "gbpprice": "13.51",
+            "sekprice": 164.92
+        },
+        {
+            "title": "Miracles from Heaven: A Little Girl, Her Journey to Heaven, and Her Amazing Story of Healing",
+            "booklink": "https://books.toscrape.com/catalogue/miracles-from-heaven-a-little-girl-her-journey-to-heaven-and-her-amazing-story-of-healing_195/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/7c/8e/7c8ea0cef3825cc6ddae55267c55a59e.jpg",
+            "gbpprice": "57.83",
+            "sekprice": 705.95
+        },
+        {
+            "title": "Letter to a Christian Nation",
+            "booklink": "https://books.toscrape.com/catalogue/letter-to-a-christian-nation_186/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/74/c2/74c2893188f917409ba564d46f481f77.jpg",
+            "gbpprice": "22.20",
+            "sekprice": 271.0
+        },
+        {
+            "title": "Let's Pretend This Never Happened: A Mostly True Memoir",
+            "booklink": "https://books.toscrape.com/catalogue/lets-pretend-this-never-happened-a-mostly-true-memoir_185/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/78/e1/78e1b9ccc99ba11d78015f0a18f0b421.jpg",
+            "gbpprice": "45.11",
+            "sekprice": 550.67
+        },
+        {
+            "title": "It's Never Too Late to Begin Again: Discovering Creativity and Meaning at Midlife and Beyond",
+            "booklink": "https://books.toscrape.com/catalogue/its-never-too-late-to-begin-again-discovering-creativity-and-meaning-at-midlife-and-beyond_179/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/fa/36/fa3659740e31eb57775cc2647654bf11.jpg",
+            "gbpprice": "42.38",
+            "sekprice": 517.35
+        },
+        {
+            "title": "Into the Wild",
+            "booklink": "https://books.toscrape.com/catalogue/into-the-wild_177/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/e2/ca/e2ca3b870db8071034edea19b1da3de2.jpg",
+            "gbpprice": "56.70",
+            "sekprice": 692.16
+        },
+        {
+            "title": "In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin",
+            "booklink": "https://books.toscrape.com/catalogue/in-the-garden-of-beasts-love-terror-and-an-american-family-in-hitlers-berlin_175/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/25/82/2582a9f11ad68a30e44cc0b459383474.jpg",
+            "gbpprice": "28.85",
+            "sekprice": 352.18
+        },
+        {
+            "title": "I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban",
+            "booklink": "https://books.toscrape.com/catalogue/i-am-malala-the-girl-who-stood-up-for-education-and-was-shot-by-the-taliban_172/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/52/7a/527a7d3b9b4928c093cadd75661bf467.jpg",
+            "gbpprice": "28.88",
+            "sekprice": 352.55
+        },
+        {
+            "title": "Gratitude",
+            "booklink": "https://books.toscrape.com/catalogue/gratitude_163/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/07/b6/07b673e7d367a5e89418bd513a8d5e72.jpg",
+            "gbpprice": "26.66",
+            "sekprice": 325.45
+        },
+        {
+            "title": "Disrupted: My Misadventure in the Start-Up Bubble",
+            "booklink": "https://books.toscrape.com/catalogue/disrupted-my-misadventure-in-the-start-up-bubble_148/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/2c/32/2c32dd01215c98fc1f6b176b6a9b3ece.jpg",
+            "gbpprice": "15.28",
+            "sekprice": 186.53
+        },
+        {
+            "title": "Brave Enough",
+            "booklink": "https://books.toscrape.com/catalogue/brave-enough_135/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/94/c7/94c7add56827e01998189a021ec060e2.jpg",
+            "gbpprice": "51.32",
+            "sekprice": 626.48
+        },
+        {
+            "title": "Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen",
+            "booklink": "https://books.toscrape.com/catalogue/born-to-run-a-hidden-tribe-superathletes-and-the-greatest-race-the-world-has-never-seen_133/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ea/ee/eaee98b302dcaf91d1122816ae553295.jpg",
+            "gbpprice": "27.35",
+            "sekprice": 333.87
+        },
+        {
+            "title": "Blink: The Power of Thinking Without Thinking",
+            "booklink": "https://books.toscrape.com/catalogue/blink-the-power-of-thinking-without-thinking_132/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/5d/41/5d415bc31b1f856a2a9dc8706fd19abd.jpg",
+            "gbpprice": "21.74",
+            "sekprice": 265.39
+        },
+        {
+            "title": "Black Flags: The Rise of ISIS",
+            "booklink": "https://books.toscrape.com/catalogue/black-flags-the-rise-of-isis_131/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/48/5d/485d2c4cedd639fcb005340a8d589bb3.jpg",
+            "gbpprice": "40.87",
+            "sekprice": 498.91
+        },
+        {
+            "title": "Are We Smart Enough to Know How Smart Animals Are?",
+            "booklink": "https://books.toscrape.com/catalogue/are-we-smart-enough-to-know-how-smart-animals-are_121/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/71/d1/71d199b2abd878b9943dc818b77a1e72.jpg",
+            "gbpprice": "56.58",
+            "sekprice": 690.69
+        },
+        {
+            "title": "A Walk in the Woods: Rediscovering America on the Appalachian Trail",
+            "booklink": "https://books.toscrape.com/catalogue/a-walk-in-the-woods-rediscovering-america-on-the-appalachian-trail_118/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/25/ff/25ffbe6f0e8961a1cb2ace38a5b02279.jpg",
+            "gbpprice": "30.48",
+            "sekprice": 372.08
+        },
+        {
+            "title": "The Suffragettes (Little Black Classics, #96)",
+            "booklink": "https://books.toscrape.com/catalogue/the-suffragettes-little-black-classics-96_112/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ee/c3/eec3857d573218bfd22b23b80bfe740e.jpg",
+            "gbpprice": "11.89",
+            "sekprice": 145.15
+        },
+        {
+            "title": "Kindle Paperwhite User's Guide",
+            "booklink": "https://books.toscrape.com/catalogue/kindle-paperwhite-users-guide_103/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/3e/49/3e49769bf9bf83d3bb25c6f93a7fcca2.jpg",
+            "gbpprice": "34.00",
+            "sekprice": 415.05
+        },
+        {
+            "title": "H is for Hawk",
+            "booklink": "https://books.toscrape.com/catalogue/h-is-for-hawk_102/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/78/3c/783c89d21306b712d832dbac267b786a.jpg",
+            "gbpprice": "57.42",
+            "sekprice": 700.94
+        },
+        {
+            "title": "Travels with Charley: In Search of America",
+            "booklink": "https://books.toscrape.com/catalogue/travels-with-charley-in-search-of-america_90/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/ff/60/ff60e98e3da9c76d6f65b26bd7142d94.jpg",
+            "gbpprice": "57.82",
+            "sekprice": 705.83
+        },
+        {
+            "title": "The Tumor",
+            "booklink": "https://books.toscrape.com/catalogue/the-tumor_85/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/db/f4/dbf4f5d4e7c0364b078aa5ce7e196853.jpg",
+            "gbpprice": "41.56",
+            "sekprice": 507.34
+        },
+        {
+            "title": "The End of the Jesus Era (An Investigation #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-end-of-the-jesus-era-an-investigation-1_64/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/fe/47/fe47782c4f8194a4d93ec1381108be88.jpg",
+            "gbpprice": "14.40",
+            "sekprice": 175.79
+        },
+        {
+            "title": "Eat, Pray, Love",
+            "booklink": "https://books.toscrape.com/catalogue/eat-pray-love_16/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/21/95/2195c296e82620593a143356aeaa7745.jpg",
+            "gbpprice": "51.32",
+            "sekprice": 626.48
+        }
+    ]
+}

@@ -1,0 +1,390 @@
+{
+    "category": "Fantasy",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html",
+    "books": [
+        {
+            "title": "Unicorn Tracks",
+            "booklink": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/76/8e/768ea5924ac1ef6297c2be9959c796c2.jpg",
+            "gbpprice": "18.78",
+            "sekprice": 229.25
+        },
+        {
+            "title": "Saga, Volume 6 (Saga (Collected Editions) #6)",
+            "booklink": "https://books.toscrape.com/catalogue/saga-volume-6-saga-collected-editions-6_924/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/43/ae/43aee83ebb31e2122a7215e413770e5c.jpg",
+            "gbpprice": "25.02",
+            "sekprice": 305.43
+        },
+        {
+            "title": "Princess Between Worlds (Wide-Awake Princess #5)",
+            "booklink": "https://books.toscrape.com/catalogue/princess-between-worlds-wide-awake-princess-5_919/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/b7/e8/b7e84b78be3d9bb79b71156a5e5d4e42.jpg",
+            "gbpprice": "13.34",
+            "sekprice": 162.85
+        },
+        {
+            "title": "Masks and Shadows",
+            "booklink": "https://books.toscrape.com/catalogue/masks-and-shadows_909/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ff/e8/ffe81bf98f8386ef29e193abfb6f9c1e.jpg",
+            "gbpprice": "56.40",
+            "sekprice": 688.49
+        },
+        {
+            "title": "Crown of Midnight (Throne of Glass #2)",
+            "booklink": "https://books.toscrape.com/catalogue/crown-of-midnight-throne-of-glass-2_888/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/66/25/6625e3bbb050de3e42a0c302c0d69f1f.jpg",
+            "gbpprice": "43.29",
+            "sekprice": 528.45
+        },
+        {
+            "title": "Avatar: The Last Airbender: Smoke and Shadow, Part 3 (Smoke and Shadow #3)",
+            "booklink": "https://books.toscrape.com/catalogue/avatar-the-last-airbender-smoke-and-shadow-part-3-smoke-and-shadow-3_881/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/06/18/061811c5845d0e13bc04b2a755f0830f.jpg",
+            "gbpprice": "28.09",
+            "sekprice": 342.9
+        },
+        {
+            "title": "A Court of Thorns and Roses (A Court of Thorns and Roses #1)",
+            "booklink": "https://books.toscrape.com/catalogue/a-court-of-thorns-and-roses-a-court-of-thorns-and-roses-1_874/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/c0/88/c08816960890396213a423941af65b8f.jpg",
+            "gbpprice": "52.37",
+            "sekprice": 639.3
+        },
+        {
+            "title": "Throne of Glass (Throne of Glass #1)",
+            "booklink": "https://books.toscrape.com/catalogue/throne-of-glass-throne-of-glass-1_868/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/32/d6/32d6aa560e8ddf2a4da1526b95d4c7ab.jpg",
+            "gbpprice": "35.07",
+            "sekprice": 428.11
+        },
+        {
+            "title": "The Glittering Court (The Glittering Court #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-glittering-court-the-glittering-court-1_845/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/3e/0b/3e0b16851bec08b6cbf78d5f64af9114.jpg",
+            "gbpprice": "44.28",
+            "sekprice": 540.54
+        },
+        {
+            "title": "Hollow City (Miss Peregrineâs Peculiar Children #2)",
+            "booklink": "https://books.toscrape.com/catalogue/hollow-city-miss-peregrines-peculiar-children-2_813/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/e2/60/e260b008b7ea7970562295b7bc64b0cb.jpg",
+            "gbpprice": "42.98",
+            "sekprice": 524.67
+        },
+        {
+            "title": "The Star-Touched Queen",
+            "booklink": "https://books.toscrape.com/catalogue/the-star-touched-queen_764/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/53/5e/535e2be0b423797c2cdc7d98882c820a.jpg",
+            "gbpprice": "46.02",
+            "sekprice": 561.78
+        },
+        {
+            "title": "The Hidden Oracle (The Trials of Apollo #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-hidden-oracle-the-trials-of-apollo-1_752/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/b4/67/b467a4f01ca6ae8464b9425a156c7c32.jpg",
+            "gbpprice": "52.26",
+            "sekprice": 637.95
+        },
+        {
+            "title": "The Bane Chronicles (The Bane Chronicles #1-11)",
+            "booklink": "https://books.toscrape.com/catalogue/the-bane-chronicles-the-bane-chronicles-1-11_746/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/9a/33/9a333c4a06ce187c5c9d2f5969ddcac2.jpg",
+            "gbpprice": "44.73",
+            "sekprice": 546.03
+        },
+        {
+            "title": "Island of Dragons (Unwanteds #7)",
+            "booklink": "https://books.toscrape.com/catalogue/island-of-dragons-unwanteds-7_705/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/75/b9/75b99691594fde72ccb1831624cfeff6.jpg",
+            "gbpprice": "29.65",
+            "sekprice": 361.95
+        },
+        {
+            "title": "Demigods & Magicians: Percy and Annabeth Meet the Kanes (Percy Jackson & Kane Chronicles Crossover #1-3)",
+            "booklink": "https://books.toscrape.com/catalogue/demigods-magicians-percy-and-annabeth-meet-the-kanes-percy-jackson-kane-chronicles-crossover-1-3_685/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/8f/80/8f8074d9f035c2a0ef8595ad89f7bcc8.jpg",
+            "gbpprice": "37.51",
+            "sekprice": 457.9
+        },
+        {
+            "title": "City of Glass (The Mortal Instruments #3)",
+            "booklink": "https://books.toscrape.com/catalogue/city-of-glass-the-mortal-instruments-3_678/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/00/08/0008e65aa431ed3625ad3a4352f8e90d.jpg",
+            "gbpprice": "56.02",
+            "sekprice": 683.85
+        },
+        {
+            "title": "Searching for Meaning in Gailana",
+            "booklink": "https://books.toscrape.com/catalogue/searching-for-meaning-in-gailana_648/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/3b/04/3b045fe0394dc192950a0ec9e3812fe4.jpg",
+            "gbpprice": "38.73",
+            "sekprice": 472.79
+        },
+        {
+            "title": "The Star-Touched Queen",
+            "booklink": "https://books.toscrape.com/catalogue/the-star-touched-queen_642/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/d3/0d/d30dd8b6be6f9fcfd17178e8083238b6.jpg",
+            "gbpprice": "32.30",
+            "sekprice": 394.3
+        },
+        {
+            "title": "A Shard of Ice (The Black Symphony Saga #1)",
+            "booklink": "https://books.toscrape.com/catalogue/a-shard-of-ice-the-black-symphony-saga-1_558/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/27/64/27649cb5da52970f4bb2fc5234a48578.jpg",
+            "gbpprice": "56.63",
+            "sekprice": 691.3
+        },
+        {
+            "title": "King's Folly (The Kinsman Chronicles #1)",
+            "booklink": "https://books.toscrape.com/catalogue/kings-folly-the-kinsman-chronicles-1_473/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/3e/2d/3e2d526ee062008ab1cbf54f90a5abb2.jpg",
+            "gbpprice": "39.61",
+            "sekprice": 483.53
+        },
+        {
+            "title": "Every Heart a Doorway (Every Heart A Doorway #1)",
+            "booklink": "https://books.toscrape.com/catalogue/every-heart-a-doorway-every-heart-a-doorway-1_465/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/50/d4/50d41a24990208deb72c9802a6c1e540.jpg",
+            "gbpprice": "12.16",
+            "sekprice": 148.44
+        },
+        {
+            "title": "A Gathering of Shadows (Shades of Magic #2)",
+            "booklink": "https://books.toscrape.com/catalogue/a-gathering-of-shadows-shades-of-magic-2_456/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/48/b2/48b20fcc9ab722729de2c4da3d4de26e.jpg",
+            "gbpprice": "44.81",
+            "sekprice": 547.01
+        },
+        {
+            "title": "The Raven Boys (The Raven Cycle #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-raven-boys-the-raven-cycle-1_411/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/3c/a4/3ca4889e4bb7f9a1cc1d7a1c920e9d42.jpg",
+            "gbpprice": "57.74",
+            "sekprice": 704.85
+        },
+        {
+            "title": "The False Prince (The Ascendance Trilogy #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-false-prince-the-ascendance-trilogy-1_402/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/f8/e3/f8e371e2869d13b9d89999f8d5173245.jpg",
+            "gbpprice": "56.00",
+            "sekprice": 683.61
+        },
+        {
+            "title": "Tell the Wind and Fire",
+            "booklink": "https://books.toscrape.com/catalogue/tell-the-wind-and-fire_396/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/3b/0c/3b0c5f4df26b73659af4e25107499384.jpg",
+            "gbpprice": "45.51",
+            "sekprice": 555.56
+        },
+        {
+            "title": "A Feast for Crows (A Song of Ice and Fire #4)",
+            "booklink": "https://books.toscrape.com/catalogue/a-feast-for-crows-a-song-of-ice-and-fire-4_357/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/b3/6b/b36b278233baf55ebaad761d8d3d0fec.jpg",
+            "gbpprice": "17.21",
+            "sekprice": 210.09
+        },
+        {
+            "title": "The Demonists (Demonist #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-demonists-demonist-1_345/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/1a/d2/1ad2a260776198051f4d1849be347cc6.jpg",
+            "gbpprice": "52.11",
+            "sekprice": 636.12
+        },
+        {
+            "title": "The Beast (Black Dagger Brotherhood #14)",
+            "booklink": "https://books.toscrape.com/catalogue/the-beast-black-dagger-brotherhood-14_342/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/1b/3f/1b3f5057f9e7f7cb81a8c10b58024145.jpg",
+            "gbpprice": "46.08",
+            "sekprice": 562.51
+        },
+        {
+            "title": "Paper and Fire (The Great Library #2)",
+            "booklink": "https://books.toscrape.com/catalogue/paper-and-fire-the-great-library-2_339/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/a7/04/a704d4248b21c0cdd8038c1b8345ed17.jpg",
+            "gbpprice": "49.45",
+            "sekprice": 603.65
+        },
+        {
+            "title": "Harry Potter and the Order of the Phoenix (Harry Potter #5)",
+            "booklink": "https://books.toscrape.com/catalogue/harry-potter-and-the-order-of-the-phoenix-harry-potter-5_327/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/96/11/9611147982037cd7d79483452938c10f.jpg",
+            "gbpprice": "31.63",
+            "sekprice": 386.12
+        },
+        {
+            "title": "Harry Potter and the Half-Blood Prince (Harry Potter #6)",
+            "booklink": "https://books.toscrape.com/catalogue/harry-potter-and-the-half-blood-prince-harry-potter-6_326/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/c8/24/c8248518fb59de3a798a4b5baae949b5.jpg",
+            "gbpprice": "48.75",
+            "sekprice": 595.11
+        },
+        {
+            "title": "Harry Potter and the Chamber of Secrets (Harry Potter #2)",
+            "booklink": "https://books.toscrape.com/catalogue/harry-potter-and-the-chamber-of-secrets-harry-potter-2_325/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/fc/08/fc08dcfc1ae86bbd5bc0bca74c9b6d3d.jpg",
+            "gbpprice": "14.74",
+            "sekprice": 179.94
+        },
+        {
+            "title": "The Rose & the Dagger (The Wrath and the Dawn #2)",
+            "booklink": "https://books.toscrape.com/catalogue/the-rose-the-dagger-the-wrath-and-the-dawn-2_278/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/57/9c/579cd2ca789c8a796a1864d08ee8d686.jpg",
+            "gbpprice": "58.64",
+            "sekprice": 715.84
+        },
+        {
+            "title": "Soldier (Talon #3)",
+            "booklink": "https://books.toscrape.com/catalogue/soldier-talon-3_222/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/7b/96/7b96f6e11b388ee800c7fd17fe479444.jpg",
+            "gbpprice": "24.72",
+            "sekprice": 301.76
+        },
+        {
+            "title": "Midnight Riot (Peter Grant/ Rivers of London - books #1)",
+            "booklink": "https://books.toscrape.com/catalogue/midnight-riot-peter-grant-rivers-of-london-books-1_194/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/e6/57/e6574a313ad7e6adf97a1d71318f9a7f.jpg",
+            "gbpprice": "55.46",
+            "sekprice": 677.02
+        },
+        {
+            "title": "Heir to the Sky",
+            "booklink": "https://books.toscrape.com/catalogue/heir-to-the-sky_166/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/6d/b1/6db1568e09d10652593638a5f85e7202.jpg",
+            "gbpprice": "44.07",
+            "sekprice": 537.98
+        },
+        {
+            "title": "Eragon (The Inheritance Cycle #1)",
+            "booklink": "https://books.toscrape.com/catalogue/eragon-the-inheritance-cycle-1_153/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/2d/62/2d625f26cb3bbeef851221f125b81daf.jpg",
+            "gbpprice": "43.87",
+            "sekprice": 535.54
+        },
+        {
+            "title": "Darkfever (Fever #1)",
+            "booklink": "https://books.toscrape.com/catalogue/darkfever-fever-1_145/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/af/08/af08d08c90b4df63ca5a2819a754da18.jpg",
+            "gbpprice": "56.02",
+            "sekprice": 683.85
+        },
+        {
+            "title": "Ash",
+            "booklink": "https://books.toscrape.com/catalogue/ash_123/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/d7/f0/d7f00033bda3779b2fd017e32e7c800c.jpg",
+            "gbpprice": "22.06",
+            "sekprice": 269.29
+        },
+        {
+            "title": "A Storm of Swords (A Song of Ice and Fire #3)",
+            "booklink": "https://books.toscrape.com/catalogue/a-storm-of-swords-a-song-of-ice-and-fire-3_116/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/39/83/3983449f17095ed15a4878d6bc8114c9.jpg",
+            "gbpprice": "31.22",
+            "sekprice": 381.11
+        },
+        {
+            "title": "Vampire Girl (Vampire Girl #1)",
+            "booklink": "https://books.toscrape.com/catalogue/vampire-girl-vampire-girl-1_92/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ea/55/ea5547a00ad163902faba6929369bc77.jpg",
+            "gbpprice": "53.82",
+            "sekprice": 657.0
+        },
+        {
+            "title": "The Silent Twin (Detective Jennifer Knight #3)",
+            "booklink": "https://books.toscrape.com/catalogue/the-silent-twin-detective-jennifer-knight-3_82/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/a0/7b/a07b53e1708f9055145aa1ec3af8608d.jpg",
+            "gbpprice": "36.25",
+            "sekprice": 442.52
+        },
+        {
+            "title": "The Mirror & the Maze (The Wrath and the Dawn #1.5)",
+            "booklink": "https://books.toscrape.com/catalogue/the-mirror-the-maze-the-wrath-and-the-dawn-15_73/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/84/a8/84a85a5ecca2bdc17e219241938ebdba.jpg",
+            "gbpprice": "29.38",
+            "sekprice": 358.65
+        },
+        {
+            "title": "Sister Sable (The Mad Queen #1)",
+            "booklink": "https://books.toscrape.com/catalogue/sister-sable-the-mad-queen-1_54/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/2c/89/2c89c4c5528ab4b9101701437953df75.jpg",
+            "gbpprice": "13.33",
+            "sekprice": 162.72
+        },
+        {
+            "title": "Shadow Rites (Jane Yellowrock #10)",
+            "booklink": "https://books.toscrape.com/catalogue/shadow-rites-jane-yellowrock-10_51/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/7a/0d/7a0d52ec06a57c117c0b99c7980756e7.jpg",
+            "gbpprice": "21.72",
+            "sekprice": 265.14
+        },
+        {
+            "title": "Origins (Alphas 0.5)",
+            "booklink": "https://books.toscrape.com/catalogue/origins-alphas-05_42/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/12/9b/129b70d7b45d78a26459e7445e0e13e2.jpg",
+            "gbpprice": "28.99",
+            "sekprice": 353.89
+        },
+        {
+            "title": "One Second (Seven #7)",
+            "booklink": "https://books.toscrape.com/catalogue/one-second-seven-7_41/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/3f/f3/3ff3f7a0f3c949bb7adbe5f7fe80b9ab.jpg",
+            "gbpprice": "52.94",
+            "sekprice": 646.26
+        },
+        {
+            "title": "Myriad (Prentor #1)",
+            "booklink": "https://books.toscrape.com/catalogue/myriad-prentor-1_36/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/6b/fa/6bfae8a489ff53f50467705c1e6fff19.jpg",
+            "gbpprice": "58.75",
+            "sekprice": 717.18
+        }
+    ]
+}

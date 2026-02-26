@@ -1,30 +1,69 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!--    
- <form action="/allprograms" method="GET">
-        <p>Datan hämtades: {{ data[0]['timestamp'] }}</p>
-        <p>Data källa: {{ source }}</p>
-        <p>Antal kategorier: {{ count -1 }}</p>    -1 för att inte räkna med timedate, även därför vi börjar ifrån element 1 inte 0 på data 
-        <ul>
-            {% for category in data[1:] %}
-                <li>{{ category['kategori'] }}: <a href="{{ category['Link'] }}">{{ category['Link'] }}</a></li>
-            {% endfor %}
-        </ul>
+
+<body>
+    <div class="buttons">
+        <form action="/Firstbuttons" method="POST">
+            <button type="submit" name="action" value="Category">Gör ett val angående kategorier</button>
+            <button type="submit" name="action" value="Books">Gör ett val angående böcker</button>
+            <button type="submit" name="action" value="update">Kör en uppdatering av alla böcker</button>
+            {% if action == "update" and updated_categories != None %}
+                <p style="color: green;"> Uppdatering klar </p>
+                <p> följande kategorier har uppdaterats: {{ updated_categories }} </p>
+            {%endif%}
+            {% if action == "update" and updated_categories == None %}
+                <p style="color: green;"> Alla kategorier är redan uppdaterade </p>
+            {%endif%}
+        </form>
+    </div>
+</body>
+
+
+{% if action == "Books" %}
+<body>
+    <div class="container" class="actions" style="margin-top: 20px;">
+        <form action="/ChangeBooks" method="POST, GET">
+            <button type="submit" name="action" value="add_book">Lägg till ny bok</button> <br>
+            <button type="submit" name="action" value="update_book">Updatera en bok</button><br>
+            <button type="submit" name="action" value="check_book">Sök efter bok</button><br>
+            <button type="submit" name="action" value="delete_book">Ta bort en bok</button><br>
     </form>
+    </div>
+</body>
+{% endif %}
+
+{% if action == "Category" %}
+<body>  
+    <div class="choices" style="margin-top: 20px;">
+        <form action="/ChangeCategory" method="POST, GET">
+            <button type="submit" name="action" value="add_category">Lägg till ny kategori</button> <br>
+            <button type="submit" name="action" value="update_category">Updatera en kategori</button><br>
+            <button type="submit" name="action" value="check_category">Sök efter kategori</button><br>
+            <button type="submit" name="action" value="delete_category">Ta bort en kategori</button><br>
+        </form>
+    </div>
+</body>
+{% endif %}
+
+{% if action == "update_category" or action == "check_category" or action == "delete_category" %}
+<body>  
+    <div>   
+        <form action="/ChangeCategory" method="POST, GET">
+            <label for="category">Välj en kategori:</label>
+            <select name="category" id="category">
+                {% for category in categories %}
+                    <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Genomför</button>
+        </form>
+    </div>
+</body>
+{% endif %}
 
 
-<form action="/allbooks" method="GET">
-    <p>Datan hämtades: {{ data[0]['timestamp'] }}</p>
-    <p>Data källa: {{ source }}</p>
-    <p>Antal kategorier: {{ count -1 }}</p>  -1 för att inte räkna med timedate, även därför vi börjar ifrån element 1 inte 0 på data
-    <ul>
-        {% for category in data[1:] %}
-            <li>{{ category['kategori'] }}: <a href="{{ category['Link'] }}">{{ category['Link'] }}</a></li>
-
-        {% endfor %}
-    </ul>
-</form>
--->
 {% endblock %}
+
+
 

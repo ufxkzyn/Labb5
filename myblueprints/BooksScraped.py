@@ -10,11 +10,11 @@ BooksScraped = Blueprint('BooksScraped', __name__, template_folder='templates')
 
 Full_book_list = './JsonData/Full_book_list' #. betyder leta specifikt här å sen gå in i jsondat
 
-global currentime  #might be stupid to put it as a global thing idk
+global currenttime  #might be stupid to put it as a global thing idk
 currenttime = datetime.datetime.now().strftime("%Y-%m-%d") #used to get the current time, this is used to check when the json file was created and decide if we should scrape again or not.
 
 
-@BooksScraped.route('/', methods=['GET'])
+@BooksScraped.route('/', methods=['GET', 'POST'])
 def index():
     return render_template('index.html'), 200
 
@@ -26,7 +26,7 @@ def get_books():
         if os.path.exists(f'{Full_book_list}_{currenttime}.json'): #If the json file exsist we just open it
             print("found")
             with open(f'{Full_book_list}_{currenttime}.json', encoding='utf-8') as file_pointer_exsisting_found:
-                data = json.load(file_pointer_exsisting_found)
+                all_books = json.load(file_pointer_exsisting_found)
                 source = "local_json_file"
 
         else: #if it dosent exsist we make one
@@ -34,12 +34,12 @@ def get_books():
             if not os.path.exists('./JsonData'): #checks if the folder exsist, if not it makes one
                 os.mkdir('./JsonData') #makes the folder if it dosent exsist
 
-            data = scrape_books()
+            all_books = scrape_books()
             source = 'live_web_scrape'
-            if data:
+            if all_books:
                 with open(f'{Full_book_list}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_new:
-                    json.dump(data, file_pointer_new, ensure_ascii=False, indent=4)
-            convert_price(data)  ###convert_price() and split_json() is kept in the else loop to prevent bugs
+                    json.dump(all_books, file_pointer_new, ensure_ascii=False, indent=4)
+            convert_price(all_books)  ###convert_price() and split_json() is kept in the else loop to prevent bugs
             split_json()
         return (jsonify({"message": f"Books retrieved from {source}"}), 200)
     except Exception as e:
@@ -54,9 +54,10 @@ def split_json():
             temporary_split = json.load(file_pointer_split)
             for category in temporary_split:
                 category_name = category['category'] #takes all categories and saves them in the .json file with their respective name
-                category_filename = f'./JsonData/{category_name}.json'
-                with open(f'{category_filename}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_category:
+                #category_filename = f'./JsonData/{category_name}.json'
+                with open(f'./JsonData/{category_name}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_category:
                     json.dump(category, file_pointer_category, ensure_ascii=False, indent=4)  
+
             return (jsonify({"message": "JSON file split successfully"}), 200)
     except Exception as e:
         print(f'Error, cant split json{e}')
@@ -188,13 +189,190 @@ def books_in_category(category_link):
         return books
     except Exception as e:
         print(f'Error, cant scrape{e}')    
+        return books
 
+## Change the info of a book
+@BooksScraped.route('/ChangeBooks', methods=['GET', 'POST'])
+def change_books():
+    try:
+        picked_category = request.form.get('category')
+        with open(f'{picked_category}_{currenttime}.json', 'r', encoding='utf-8') as file_pointer_changing:
+            whats_changing = json.load(file_pointer_changing)
 
+            Picked_book = request.form.get('title') 
+            if Picked_book in whats_changing['books']:
+                if 'title' in request.form and not "": ##the and not "" makes sure user isent inputting empty
+                    updated_title = request.form.get('title')
+                if 'booklink' in request.form and not "":
+                    updated_link = request.form.get('booklink')
+                if 'rating' in request.form and not "":
+                    updated_rating = request.form.get('rating')
+                if 'thumbnail' in request.form and not "":
+                    updated_thumbnail = request.form.get('thumbnail')
+                if 'gbpprice' in request.form and not "":
+                    updated_gbpprice = request.form.get('gbpprice')
+                if 'sekprice' in request.form and not "":
+                    updated_sekprice = request.form.get('sekprice')
+
+                updated_info_books = {             ## updates the info if its been changed, otherwise it keeps the same info
+                    'title': updated_title if 'title' in request.form else whats_changing['books'][Picked_book]['title'],
+                    'booklink': updated_link if 'booklink' in request.form else whats_changing['books'][Picked_book]['booklink'],
+                    'rating': updated_rating if 'rating' in request.form else whats_changing['books'][Picked_book]['rating'],
+                    'thumbnail': updated_thumbnail if 'thumbnail' in request.form else whats_changing['books'][Picked_book]['thumbnail'],
+                    'gbpprice': updated_gbpprice if 'gbpprice' in request.form else whats_changing['books'][Picked_book]['gbpprice'],
+                    'sekprice': updated_sekprice if 'sekprice' in request.form else whats_changing['books'][Picked_book]['sekprice']
+                }
+                whats_changing['books'][Picked_book] = updated_info_books
+
+            with open(f'{picked_category}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_changing:
+                json.dump(whats_changing, file_pointer_changing, ensure_ascii=False, indent=4)
+
+        return (jsonify({"message": "Book updated successfully"}), 200,)
+    except Exception as e:
+        print(f'Error, cant change book{e}')
+
+## change theinfo on a category
+@BooksScraped.route('/ChangeCategory', methods=['POST', 'GET'])
+def change_category():
+    try:
+        Picked_Category = request.form.get('category') 
+        if Picked_Category:
+            if 'category' in request.form and not "":
+                updated_category = request.form.get('category')
+            if 'categorylink' in request.form and not "":
+                updated_link = request.form.get('categorylink')
+
+            updated_info_categories = {
+                'category': updated_category,
+                'categorylink': updated_link}
+
+            with open(f'{Picked_Category}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_changing:
+                json.dump(updated_info_categories, file_pointer_changing, ensure_ascii=False, indent=4)
+
+        return (jsonify({"message": "Category updated successfully"}), 200,)
+    except Exception as e:
+        print(f'Error, cant change category{e}')
+
+#Deletes a book after picking under what category
+@BooksScraped.route('/deletebook', methods=['GET', 'POST'])
+def delete_book():
+    try:
+        picked_category_delete = request.form.get('category')
+        picked_book_delete = request.form.get('title')
+        with open(f'{picked_category_delete}_{currenttime}.json', 'r', encoding='utf-8') as file_pointer_deleting:
+            book_to_delete = json.load(file_pointer_deleting)
+            if picked_book_delete in book_to_delete['books']:
+                book_to_delete['books'].pop(picked_book_delete)
+                with open(f'{picked_category_delete}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_deleting:
+                    json.dump(book_to_delete, file_pointer_deleting, ensure_ascii=False, indent=4)
+            else:
+                return (jsonify({"message": f"Book not found"}), 404,)
+        return (jsonify({"message": f"Book {picked_book_delete} deleted successfully"}), 200,)
+    except Exception as e:
+        print(f'Error, cant delete book{e}')
+
+## deletes a category 
+@BooksScraped.route('/deletecategory', methods=['GET', 'POST'])
+def delete_category():
+    try:
+        picked_category_delete = request.form.get('category')
+        if os.path.exists(f'{picked_category_delete}_{currenttime}.json'):
+            os.remove(f'{picked_category_delete}_{currenttime}.json')
+            os.remove(f'{Full_book_list[picked_category_delete]}_{currenttime}.json')
+            return (jsonify({"message": f"Category deleted successfully"}), 200,)
+        else:
+            return (jsonify({"message": f"Category not found"}), 404,)
+    except Exception as e:
+        print(f'Error, cant delete category{e}')
+
+## adds a new book
+@BooksScraped.route('/addbooks', methods=['GET', 'POST'])
+def add_book():
+    try:
+        picked_book_add = request.form.get('title')
+        picked_category_add = request.form.get('category')
+
+        with open(f'{picked_category_add}_{currenttime}.json', 'r', encoding='utf-8') as file_pointer_adding:
+            book_to_add = json.load(file_pointer_adding)
+            if picked_book_add not in book_to_add['books']:
+                new_book = {
+                    'title': request.form.get('title'),
+                    'booklink': request.form.get('booklink'),
+                    'rating': request.form.get('rating'),
+                    'thumbnail': request.form.get('thumbnail'),
+                    'gbpprice': request.form.get('gbpprice'),
+                    'sekprice': request.form.get('sekprice')
+                }
+
+                book_to_add['books'][picked_book_add].append(new_book) 
+
+                with open(f'{picked_category_add}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_adding:
+                    json.dump(book_to_add, file_pointer_adding, ensure_ascii=False, indent=4)
+
+                return (jsonify({"message": f"Book {picked_book_add} added successfully"}), 200,)
+            else:
+                return (jsonify({"message": f"Book already exists"}), 400,)
+    except Exception as e:
+        print(f'Error, cant add book{e}')
+
+#adds a nwe category
+@BooksScraped.route('/addcategory', methods=['GET', 'POST'])
+def add_category():
+    try:
+        picked_category_add = request.form.get('category')
+        with open(f'{picked_category_add}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_adding:
+            old_categorys = json.load(file_pointer_adding)
+
+            if picked_category_add not in old_categorys:
+                new_category = {
+                    'category': request.form.get('category'),
+                    'categorylink': request.form.get('categorylink'),
+                    'books': {}
+                }
+                old_categorys.append(new_category)
+                with open(f'{picked_category_add}_{currenttime}.json', 'w', encoding='utf-8') as file_pointer_adding:
+                    json.dump(old_categorys, file_pointer_adding, ensure_ascii=False, indent=4)
+
+                return (jsonify({"message": f"Category {picked_category_add} added successfully"}), 200,)
+            else:
+                return (jsonify({"message": f"Category already exists"}), 400,)
+    except Exception as e:
+        print(f'Error, cant add category{e}')
+
+# check when the json was last updated
+@BooksScraped.route('/Lastupdate', methods=['GET', 'POST'])
+def last_update():
+    try:
+        for json_file in os.listdir('./JsonData'):           
+            if f"{json_file}" != f"{json_file.split('_')[0]}_{currenttime}.json": #checks if the file is up to date, if not it updates it
+                print(f"File {json_file} is old, updating now")
+                with open(f'Full_book_list_{currenttime}.json', 'r', encoding='utf-8') as f:
+                    found_update_link = json.load(f)['categorylink'] #finds the link to the category in the old json file, so we can scrape it again and update it
+
+                
+                os.remove(f"./JsonData/{json_file}") #removes the old json file
+            
+                with open(f'./JsonData/{json_file}', 'w', encoding='utf-8') as file_pointer_new:
+                    json.dump(books_in_category(found_update_link), file_pointer_new, ensure_ascii=False, indent=4)
+
+                return (jsonify({"message": f"File {json_file} is old, updating now"}), 200, json_file)
+        return (jsonify({"message": f"All files are up to date"}), 200,)
+    except Exception as e:
+        print(f'Error, cant check last update: {type(e).__name__}: {e}')
 
 #### not used ###
-@BooksScraped.route('/', methods=['POST'])
+@BooksScraped.route('/Firstbuttons', methods=['GET', 'POST'])
 def buttonchoice():
-    button_picked = request.form.get('show_all')  # Get the value of the button that was clicked
-    if button_picked == 'show_all':
-        buttonchoice == 'show_all_TRUE'
-        return render_template('index.html', buttonchoice='show_all_TRUE')
+    try:
+        action = request.form.get('action')
+        if action == "Category":
+            return (render_template('index.html', action=action), 200)
+        if action == "Books":
+            return (render_template('index.html', action=action), 200)
+        if action == "update":
+            file = last_update()
+            return (render_template('index.html', action=action, updated_categories=file), 200)
+    except Exception as e:
+        print(f'Error, cant choose button{e}')
+
+

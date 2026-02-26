@@ -1,0 +1,62 @@
+{
+    "category": "Psychology",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/psychology_26/index.html",
+    "books": [
+        {
+            "title": "The Lucifer Effect: Understanding How Good People Turn Evil",
+            "booklink": "https://books.toscrape.com/catalogue/the-lucifer-effect-understanding-how-good-people-turn-evil_758/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/a6/c8/a6c8256b123493472591c5855c7de704.jpg",
+            "gbpprice": "10.40",
+            "sekprice": 126.96
+        },
+        {
+            "title": "The Golden Condom: And Other Essays on Love Lost and Found",
+            "booklink": "https://books.toscrape.com/catalogue/the-golden-condom-and-other-essays-on-love-lost-and-found_637/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/dc/4d/dc4d070e33813a07a4e02f069e6d482f.jpg",
+            "gbpprice": "39.43",
+            "sekprice": 481.33
+        },
+        {
+            "title": "It Didn't Start with You: How Inherited Family Trauma Shapes Who We Are and How to End the Cycle",
+            "booklink": "https://books.toscrape.com/catalogue/it-didnt-start-with-you-how-inherited-family-trauma-shapes-who-we-are-and-how-to-end-the-cycle_593/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/ee/a9/eea9e831f8964b4dc0190c84a1f9a1f6.jpg",
+            "gbpprice": "56.27",
+            "sekprice": 686.91
+        },
+        {
+            "title": "An Unquiet Mind: A Memoir of Moods and Madness",
+            "booklink": "https://books.toscrape.com/catalogue/an-unquiet-mind-a-memoir-of-moods-and-madness_422/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/00/29/002924b764dc367dcaa3486fa4c0aa0b.jpg",
+            "gbpprice": "21.30",
+            "sekprice": 260.02
+        },
+        {
+            "title": "Thinking, Fast and Slow",
+            "booklink": "https://books.toscrape.com/catalogue/thinking-fast-and-slow_289/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/b4/a5/b4a56663d56f1e84ee1b15bd819563cc.jpg",
+            "gbpprice": "21.14",
+            "sekprice": 258.06
+        },
+        {
+            "title": "Civilization and Its Discontents",
+            "booklink": "https://books.toscrape.com/catalogue/civilization-and-its-discontents_140/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/4d/a6/4da6939a6bbd895a5acdeabad46d1f9f.jpg",
+            "gbpprice": "59.95",
+            "sekprice": 731.83
+        },
+        {
+            "title": "8 Keys to Mental Health Through Exercise",
+            "booklink": "https://books.toscrape.com/catalogue/8-keys-to-mental-health-through-exercise_114/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/b8/44/b844a77409f1d53cbb66148820abc217.jpg",
+            "gbpprice": "31.04",
+            "sekprice": 378.92
+        }
+    ]
+}

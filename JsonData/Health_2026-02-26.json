@@ -1,0 +1,38 @@
+{
+    "category": "Health",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/health_47/index.html",
+    "books": [
+        {
+            "title": "The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life",
+            "booklink": "https://books.toscrape.com/catalogue/the-bulletproof-diet-lose-up-to-a-pound-a-day-reclaim-energy-and-focus-upgrade-your-life_931/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/ee/3e/ee3e219d23e73ba71c79b700f183aaed.jpg",
+            "gbpprice": "49.05",
+            "sekprice": 598.77
+        },
+        {
+            "title": "Eat Fat, Get Thin",
+            "booklink": "https://books.toscrape.com/catalogue/eat-fat-get-thin_688/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/62/3f/623f8e7f7432ce744f4318aae8166ce4.jpg",
+            "gbpprice": "54.07",
+            "sekprice": 660.05
+        },
+        {
+            "title": "10-Day Green Smoothie Cleanse: Lose Up to 15 Pounds in 10 Days!",
+            "booklink": "https://books.toscrape.com/catalogue/10-day-green-smoothie-cleanse-lose-up-to-15-pounds-in-10-days_581/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/23/c2/23c2108ae81327c7f3fb0721976cba5e.jpg",
+            "gbpprice": "49.71",
+            "sekprice": 606.83
+        },
+        {
+            "title": "The Art and Science of Low Carbohydrate Living",
+            "booklink": "https://books.toscrape.com/catalogue/the-art-and-science-of-low-carbohydrate-living_570/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/4b/d4/4bd43108fb070ad8ebba9cdb00b14069.jpg",
+            "gbpprice": "52.98",
+            "sekprice": 646.74
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "category": "Christian",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/christian_43/index.html",
+    "books": [
+        {
+            "title": "(Un)Qualified: How God Uses Broken People to Do Big Things",
+            "booklink": "https://books.toscrape.com/catalogue/unqualified-how-god-uses-broken-people-to-do-big-things_873/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/cd/db/cddb3eb483ef11a088d519205b7098fb.jpg",
+            "gbpprice": "54.00",
+            "sekprice": 659.2
+        },
+        {
+            "title": "Crazy Love: Overwhelmed by a Relentless God",
+            "booklink": "https://books.toscrape.com/catalogue/crazy-love-overwhelmed-by-a-relentless-god_682/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/03/f1/03f1e337afadba35687672b5625a9757.jpg",
+            "gbpprice": "47.72",
+            "sekprice": 582.53
+        },
+        {
+            "title": "Blue Like Jazz: Nonreligious Thoughts on Christian Spirituality",
+            "booklink": "https://books.toscrape.com/catalogue/blue-like-jazz-nonreligious-thoughts-on-christian-spirituality_461/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/a2/f5/a2f5b5fd4421d56d37c73a7fb29f5f40.jpg",
+            "gbpprice": "25.77",
+            "sekprice": 314.58
+        }
+    ]
+}
