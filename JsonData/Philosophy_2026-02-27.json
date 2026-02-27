@@ -1,0 +1,94 @@
+{
+    "category": "Philosophy",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html",
+    "books": [
+        {
+            "title": "Sophie's World",
+            "booklink": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/65/71/6571919836ec51ed54f0050c31d8a0cd.jpg",
+            "gbpprice": "15.94",
+            "sekprice": 194.02
+        },
+        {
+            "title": "The Death of Humanity: and the Case for Life",
+            "booklink": "https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/71/df/71df730cf38c232ee58a2e407135f055.jpg",
+            "gbpprice": "58.11",
+            "sekprice": 707.3
+        },
+        {
+            "title": "The Stranger",
+            "booklink": "https://books.toscrape.com/catalogue/the-stranger_861/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/ea/04/ea0476a6f4c318ceccf5e2f2b39f2b15.jpg",
+            "gbpprice": "17.44",
+            "sekprice": 212.27
+        },
+        {
+            "title": "Proofs of God: Classical Arguments from Tertullian to Barth",
+            "booklink": "https://books.toscrape.com/catalogue/proofs-of-god-classical-arguments-from-tertullian-to-barth_538/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/3f/ef/3fef12d9da503693af12997c0ea0897f.jpg",
+            "gbpprice": "54.21",
+            "sekprice": 659.83
+        },
+        {
+            "title": "Kierkegaard: A Christian Missionary to Christians",
+            "booklink": "https://books.toscrape.com/catalogue/kierkegaard-a-christian-missionary-to-christians_527/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/05/ce/05ce699eaf78c0fae20308497c4f496a.jpg",
+            "gbpprice": "47.13",
+            "sekprice": 573.65
+        },
+        {
+            "title": "At The Existentialist CafÃ©: Freedom, Being, and apricot cocktails with: Jean-Paul Sartre, Simone de Beauvoir, Albert Camus, Martin Heidegger, Edmund Husserl, Karl Jaspers, Maurice Merleau-Ponty and others",
+            "booklink": "https://books.toscrape.com/catalogue/at-the-existentialist-cafe-freedom-being-and-apricot-cocktails-with-jean-paul-sartre-simone-de-beauvoir-albert-camus-martin-heidegger-edmund-husserl-karl-jaspers-maurice-merleau-ponty-and-others_459/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/de/76/de76d5c473c358bd41c03cf710692bfb.jpg",
+            "gbpprice": "29.93",
+            "sekprice": 364.3
+        },
+        {
+            "title": "Critique of Pure Reason",
+            "booklink": "https://books.toscrape.com/catalogue/critique-of-pure-reason_366/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/12/6e/126ef8f6473b81808ebbb9cff155e883.jpg",
+            "gbpprice": "20.75",
+            "sekprice": 252.56
+        },
+        {
+            "title": "Run, Spot, Run: The Ethics of Keeping Pets",
+            "booklink": "https://books.toscrape.com/catalogue/run-spot-run-the-ethics-of-keeping-pets_106/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/91/e6/91e6190dcdd7d6cdeb94a82b60917ec4.jpg",
+            "gbpprice": "20.02",
+            "sekprice": 243.68
+        },
+        {
+            "title": "The Nicomachean Ethics",
+            "booklink": "https://books.toscrape.com/catalogue/the-nicomachean-ethics_75/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/f0/aa/f0aa9ae0319b1d6e0706e6053020e696.jpg",
+            "gbpprice": "36.34",
+            "sekprice": 442.32
+        },
+        {
+            "title": "Meditations",
+            "booklink": "https://books.toscrape.com/catalogue/meditations_33/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/df/c9/dfc9ed72e963572d23233b3a8cb01676.jpg",
+            "gbpprice": "25.89",
+            "sekprice": 315.13
+        },
+        {
+            "title": "Beyond Good and Evil",
+            "booklink": "https://books.toscrape.com/catalogue/beyond-good-and-evil_6/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/ab/45/ab45f300aa15066ad1260d6f1398d03e.jpg",
+            "gbpprice": "43.38",
+            "sekprice": 528.01
+        }
+    ]
+}

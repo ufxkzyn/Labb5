@@ -1,0 +1,46 @@
+{
+    "category": "Sports and Games",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html",
+    "books": [
+        {
+            "title": "The Book of Basketball: The NBA According to The Sports Guy",
+            "booklink": "https://books.toscrape.com/catalogue/the-book-of-basketball-the-nba-according-to-the-sports-guy_232/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/61/2c/612caeb0b2acb35c100629f0f52a40d7.jpg",
+            "gbpprice": "44.84",
+            "sekprice": 545.78
+        },
+        {
+            "title": "Friday Night Lights: A Town, a Team, and a Dream",
+            "booklink": "https://books.toscrape.com/catalogue/friday-night-lights-a-town-a-team-and-a-dream_158/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/7d/cf/7dcf6c3b419bf7e7e3b3b8162b177869.jpg",
+            "gbpprice": "51.22",
+            "sekprice": 623.44
+        },
+        {
+            "title": "Sugar Rush (Offensive Line #2)",
+            "booklink": "https://books.toscrape.com/catalogue/sugar-rush-offensive-line-2_108/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/c3/a9/c3a90a5baa833a37c29c4b03a444737c.jpg",
+            "gbpprice": "24.42",
+            "sekprice": 297.23
+        },
+        {
+            "title": "Settling the Score (The Summer Games #1)",
+            "booklink": "https://books.toscrape.com/catalogue/settling-the-score-the-summer-games-1_50/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/9b/4e/9b4ece2ab5a6335c8594c878e2f22df1.jpg",
+            "gbpprice": "44.91",
+            "sekprice": 546.63
+        },
+        {
+            "title": "Icing (Aces Hockey #2)",
+            "booklink": "https://books.toscrape.com/catalogue/icing-aces-hockey-2_25/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/8d/1e/8d1e285bf672b2ea66879490cc5f6904.jpg",
+            "gbpprice": "40.44",
+            "sekprice": 492.22
+        }
+    ]
+}
