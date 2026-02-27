@@ -8,13 +8,15 @@
             <button type="submit" name="action" value="Category">Gör ett val angående kategorier</button>
             <button type="submit" name="action" value="Books">Gör ett val angående böcker</button>
             <button type="submit" name="action" value="update">Kör en uppdatering av alla böcker</button>
-            {% if action == "update" and updated_categories != None %}
+            
+            {% if action == "update" and return_categories_changes is defined and return_categories_changes != [] %}
                 <p style="color: green;"> Uppdatering klar </p>
-                <p> följande kategorier har uppdaterats: {{ updated_categories }} </p>
-            {%endif%}
-            {% if action == "update" and updated_categories == None %}
+                <p> följande kategorier har uppdaterats: {{ return_categories_changes }} </p>
+            {% endif %}
+
+            {% if action == "update" and (return_categories_changes is not defined or return_categories_changes == []) %}
                 <p style="color: green;"> Alla kategorier är redan uppdaterade </p>
-            {%endif%}
+            {% endif %}
         </form>
     </div>
 </body>
@@ -23,9 +25,8 @@
 {% if action == "Books" %}
 <body>
     <div class="container" class="actions" style="margin-top: 20px;">
-        <form action="/ChangeBooks" method="POST, GET">
+        <form action="/BookButton" method="POST, GET">
             <button type="submit" name="action" value="add_book">Lägg till ny bok</button> <br>
-            <button type="submit" name="action" value="update_book">Updatera en bok</button><br>
             <button type="submit" name="action" value="check_book">Sök efter bok</button><br>
             <button type="submit" name="action" value="delete_book">Ta bort en bok</button><br>
     </form>
@@ -33,10 +34,100 @@
 </body>
 {% endif %}
 
+{% if action == "add_book" %}
+<body>
+    <div class="container" div style="margin-top: 20px;">
+        <h2>Ange information om boken</h2>
+        <form action="/addbooks" method="POST, GET">
+            <input type="text" name="title" hidenvalue="title" placeholder="Titel" required><br>
+            <input type="text" name="author" hidenvalue="author" placeholder="Författare" required><br>
+            <input type="text" name="category" hidenvalue="category" placeholder="Kategori" required><br>
+            <input type="text" name="booklink" hidenvalue="booklink" placeholder="Länk till boken" required><br>
+            <input type="text" name="rating" hidenvalue="rating" placeholder="Betyg" required><br>
+            <input type="text" name="thumbnail" hidenvalue="thumbnail" placeholder="Länk till thumbnail" required><br>
+            <input type="int" name="gbpprice " hidenvalue="gbpprice" placeholder="Pris i GBP" required><br>
+            <input type="int" name="sekprice" hidenvalue="sekprice" placeholder="Pris i SEK" required><br>
+            <button type="submit">Lägg till</button>
+            {% if Error == "True" %}
+                <p style="color: red;"> Något gick fel </p>
+            {%endif%}
+             {% if Error == "False" %}
+                <p style="color: green;"> Boken tillagd i systemet </p>
+            {%endif%}
+{%endif%}
+
+
+{% if action == "check_book" %}
+<body>
+    <div class="container" div style="margin-top: 20px;">
+        <h2>Vilken bok letar du efter?</h2>
+        <form action="/searchbooks" method="POST, GET">
+            <input type="text" name="title" placeholder="Titel" required><br>
+            <button type="submit">Sök</button>
+
+            {% if Error == "Yes" %}
+                <p style="color: red;"> Boken hittades inte </p>
+            {%endif%}
+
+            {% if Error == "No" %}
+                <p style="color: green;"> Boken finns i systemet </p>
+                <img src="{{ book.thumbnail }}" alt="Thumbnail of the book" style="width: 300px; height: auto;"><br>
+                <p> Titel: {{ book.title }} </p>
+                <p> Länk till boken: <a href="{{ book.booklink }}">{{ book.booklink }}</a> </p>
+                <p> Betyg: {{ book.rating }} </p>
+                <p> Pris i GBP: {{ book.gbpprice }} </p>
+                <p> Pris i SEK: {{ book.sekprice }} </p>
+            {%endif%}
+
+        </form>
+{%endif%}
+
+{% if action == "delete_book" %}
+<body>
+    <div class="container" div style="margin-top: 20px;">
+        <h2>Ange vilken bok det gäller </h2>
+        <form action="/deletebooks" method="POST">
+            {% if books %}
+            <select name="book" required>
+                <option value="" disabled selected>Välj bok</option>
+                {% for book in books %}
+                    <option value="{{ book }}">{{ book }}</option>
+                {% endfor %}
+            </select><br>
+            {% endif %}
+
+            <h3>DETTA ÄR PERMANENT</h3>
+            <button type="submit" >Ta bort</button>
+
+            {% if Error == "False" %}
+                <p style="color: green;"> Boken borttagen ur systmet </p>
+            {%endif%}
+            {% if Error == "True" %}
+                <p style="color: red;"> Något gick fel </p>
+            {%endif%}
+
+
+{%endif%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {% if action == "Category" %}
 <body>  
     <div class="choices" style="margin-top: 20px;">
-        <form action="/ChangeCategory" method="POST, GET">
+        <form action="/CategoryButton" method="POST, GET">
             <button type="submit" name="action" value="add_category">Lägg till ny kategori</button> <br>
             <button type="submit" name="action" value="update_category">Updatera en kategori</button><br>
             <button type="submit" name="action" value="check_category">Sök efter kategori</button><br>
@@ -46,21 +137,76 @@
 </body>
 {% endif %}
 
-{% if action == "update_category" or action == "check_category" or action == "delete_category" %}
-<body>  
-    <div>   
-        <form action="/ChangeCategory" method="POST, GET">
-            <label for="category">Välj en kategori:</label>
-            <select name="category" id="category">
+{% if action == "add_category" %}
+<body>
+    <div class="container" div style="margin-top: 20px;">
+        <h2>Ange information om kategorin</h2>
+        <form action="/addcategory" method="POST, GET">
+            <input type="text" name="category" value="category" placeholder="Kategori" required><br>
+            <input type="text" name="categorylink" value="categorylink" placeholder="Länk till kategori" required><br>
+            <button type="submit">Lägg till</button>
+{%endif%}            
+
+{% if action == "update_category" %}
+<body>
+    <div class="container" div style="margin-top: 20px;">
+        <h2>du kan enbart updatera länk för kategori</h2>
+        <form action="/updatecategory" method="POST, GET">
+            <select name="category" required>
                 {% for category in categories %}
                     <option value="{{ category }}">{{ category }}</option>
                 {% endfor %}
-            </select>
-            <button type="submit">Genomför</button>
+            </select><br>
+        
+            <div style="margin-top: 20px;"></div>
+            <input type="text" name="categorylink" value="categorylink" placeholder="updatera länk till kategori" required><br>
+            <button type="submit">Uppdatera</button>
+            {% if Error == "Yes" %}
+                <p style="color: red;"> något gick fel </p>
+            {%endif%}
+            {% if Error == "No" %}
+                <p style="color: green;"> Kategorin uppdaterad </p>
+            {%endif%}
+            
         </form>
     </div>
-</body>
-{% endif %}
+{%endif%}
+
+{% if action == "check_category" %}
+<body>
+    <div class="container" div style="margin-top: 20px;">
+        <h2>Vilken kategori letar du efter?</h2>
+        <form action="/searchcategory" method="POST">
+            <input type="text" name="category" placeholder="Kategori" required><br>
+            <button type="submit">Sök</button>
+            {% if Error == "Yes" %}
+                <p style="color: red;"> Kategorin finns inte </p>
+            {%endif%}
+
+            {% if Error == "No" %}
+                <p style="color: green;"> Kategorin finns </p>
+            {%endif%}
+        </form>
+{%endif%}
+
+{% if action == "delete_category" %}
+<body>
+    <div class="container" div style="margin-top: 20px;">
+        <h2>Välj vad du vill ta bort</h2>
+        <form action="/deletecategory" method="POST">
+            <select name="category" required>
+                {% for category in categories %}
+                    <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+            </select><br>
+            <button type="submit">Ta bort</button>
+            {% if Error == "Yes" %}
+                <p style="color: red;"> Kategorin hittades inte </p>
+            {%endif%}
+            {% if Error == "No" %}
+                <p style="color: green;"> Kategorin borttagen ur systemet </p>
+            {%endif%}
+{%endif%}
 
 
 {% endblock %}
