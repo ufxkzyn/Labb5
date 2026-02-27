@@ -1,0 +1,526 @@
+{
+    "category": "Fiction",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/fiction_10/index.html",
+    "books": [
+        {
+            "title": "Soumission",
+            "booklink": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg",
+            "gbpprice": "50.10",
+            "sekprice": 609.8
+        },
+        {
+            "title": "Private Paris (Private #10)",
+            "booklink": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/9d/05/9d0533bae1578846d728a82913b95c26.jpg",
+            "gbpprice": "47.61",
+            "sekprice": 579.5
+        },
+        {
+            "title": "We Love You, Charlie Freeman",
+            "booklink": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/5f/15/5f152afdbc42356ecba02f61058a7e5b.jpg",
+            "gbpprice": "50.27",
+            "sekprice": 611.87
+        },
+        {
+            "title": "Thirst",
+            "booklink": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/c4/0a/c40a64f59e7487b1a80a049f6ceb2ba5.jpg",
+            "gbpprice": "17.27",
+            "sekprice": 210.21
+        },
+        {
+            "title": "The Murder That Never Was (Forensic Instincts #5)",
+            "booklink": "https://books.toscrape.com/catalogue/the-murder-that-never-was-forensic-instincts-5_939/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/dc/44/dc44f8e2aebac48ca8553814d9b021a8.jpg",
+            "gbpprice": "54.11",
+            "sekprice": 658.61
+        },
+        {
+            "title": "Tuesday Nights in 1980",
+            "booklink": "https://books.toscrape.com/catalogue/tuesday-nights-in-1980_870/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/6b/da/6bdae061cb92c32b0b83cda8dd10275d.jpg",
+            "gbpprice": "21.04",
+            "sekprice": 256.09
+        },
+        {
+            "title": "The Vacationers",
+            "booklink": "https://books.toscrape.com/catalogue/the-vacationers_863/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/37/25/372578cc073efae80cf284b56040a488.jpg",
+            "gbpprice": "42.15",
+            "sekprice": 513.04
+        },
+        {
+            "title": "The Regional Office Is Under Attack!",
+            "booklink": "https://books.toscrape.com/catalogue/the-regional-office-is-under-attack_858/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/f8/31/f8314c7fdaa79fb7191a583e9a852db8.jpg",
+            "gbpprice": "51.36",
+            "sekprice": 625.14
+        },
+        {
+            "title": "Finders Keepers (Bill Hodges Trilogy #2)",
+            "booklink": "https://books.toscrape.com/catalogue/finders-keepers-bill-hodges-trilogy-2_807/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/6a/81/6a81103b1c01a3f6c56e5718a838a4c8.jpg",
+            "gbpprice": "53.53",
+            "sekprice": 651.55
+        },
+        {
+            "title": "The Time Keeper",
+            "booklink": "https://books.toscrape.com/catalogue/the-time-keeper_766/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/8f/f8/8ff8680dde59ea739d6978a01e4d7fe5.jpg",
+            "gbpprice": "27.88",
+            "sekprice": 339.35
+        },
+        {
+            "title": "The Testament of Mary",
+            "booklink": "https://books.toscrape.com/catalogue/the-testament-of-mary_765/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/83/05/8305154438c91a02cefacf4ec8b53393.jpg",
+            "gbpprice": "52.67",
+            "sekprice": 641.08
+        },
+        {
+            "title": "The First Hostage (J.B. Collins #2)",
+            "booklink": "https://books.toscrape.com/catalogue/the-first-hostage-jb-collins-2_749/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/38/34/3834572e651cdc14b18d348fa4875aa9.jpg",
+            "gbpprice": "25.85",
+            "sekprice": 314.64
+        },
+        {
+            "title": "Take Me with You",
+            "booklink": "https://books.toscrape.com/catalogue/take-me-with-you_741/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/d8/a4/d8a44eda7cbe7bd1207f868e9adc06f3.jpg",
+            "gbpprice": "45.21",
+            "sekprice": 550.28
+        },
+        {
+            "title": "Still Life with Bread Crumbs",
+            "booklink": "https://books.toscrape.com/catalogue/still-life-with-bread-crumbs_738/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/8e/c7/8ec7f310b74ddd7ec3c859e9b0da7389.jpg",
+            "gbpprice": "26.41",
+            "sekprice": 321.46
+        },
+        {
+            "title": "Shtum",
+            "booklink": "https://books.toscrape.com/catalogue/shtum_733/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/03/16/0316bb6f4785ac69c0643109201bad5d.jpg",
+            "gbpprice": "55.84",
+            "sekprice": 679.67
+        },
+        {
+            "title": "My Name Is Lucy Barton",
+            "booklink": "https://books.toscrape.com/catalogue/my-name-is-lucy-barton_720/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/ca/b1/cab150e556b5fab663a9fec00ed97943.jpg",
+            "gbpprice": "41.56",
+            "sekprice": 505.86
+        },
+        {
+            "title": "My Mrs. Brown",
+            "booklink": "https://books.toscrape.com/catalogue/my-mrs-brown_719/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/e0/79/e07906c1e507055da9a2260a74f58273.jpg",
+            "gbpprice": "24.48",
+            "sekprice": 297.96
+        },
+        {
+            "title": "Mr. Mercedes (Bill Hodges Trilogy #1)",
+            "booklink": "https://books.toscrape.com/catalogue/mr-mercedes-bill-hodges-trilogy-1_717/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/a7/f0/a7f092a7b79f848df0226f808fed489b.jpg",
+            "gbpprice": "28.90",
+            "sekprice": 351.76
+        },
+        {
+            "title": "I Am Pilgrim (Pilgrim #1)",
+            "booklink": "https://books.toscrape.com/catalogue/i-am-pilgrim-pilgrim-1_703/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/ed/07/ed07c9e7c53d4f33a6eb7d41eb0e6d4a.jpg",
+            "gbpprice": "10.60",
+            "sekprice": 129.02
+        },
+        {
+            "title": "Eligible (The Austen Project #4)",
+            "booklink": "https://books.toscrape.com/catalogue/eligible-the-austen-project-4_692/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/26/3b/263bf5d128bf18553ea8da8bb19e9a0c.jpg",
+            "gbpprice": "27.09",
+            "sekprice": 329.73
+        },
+        {
+            "title": "Eight Hundred Grapes",
+            "booklink": "https://books.toscrape.com/catalogue/eight-hundred-grapes_690/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/8c/01/8c011092f05791961d25ec3cfcf0a832.jpg",
+            "gbpprice": "14.39",
+            "sekprice": 175.15
+        },
+        {
+            "title": "Dear Mr. Knightley",
+            "booklink": "https://books.toscrape.com/catalogue/dear-mr-knightley_684/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/78/87/78873811f8c1d75a0c26d8cc8e6a9dbc.jpg",
+            "gbpprice": "11.21",
+            "sekprice": 136.45
+        },
+        {
+            "title": "Cometh the Hour (The Clifton Chronicles #6)",
+            "booklink": "https://books.toscrape.com/catalogue/cometh-the-hour-the-clifton-chronicles-6_681/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/55/11/5511a4296fbd484dcaa89c8a2d25965d.jpg",
+            "gbpprice": "25.01",
+            "sekprice": 304.41
+        },
+        {
+            "title": "Balloon Animals",
+            "booklink": "https://books.toscrape.com/catalogue/balloon-animals_665/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/6e/23/6e2324cae6335e8e98c8b46597afc9a3.jpg",
+            "gbpprice": "17.03",
+            "sekprice": 207.28
+        },
+        {
+            "title": "A Man Called Ove",
+            "booklink": "https://books.toscrape.com/catalogue/a-man-called-ove_653/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/9c/f1/9cf1f4a47b8d08909fc092e6ae598d83.jpg",
+            "gbpprice": "39.72",
+            "sekprice": 483.46
+        },
+        {
+            "title": "The Silent Sister (Riley MacPherson #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-silent-sister-riley-macpherson-1_641/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/30/2c/302cd9c84442e139145ec0993880d7e0.jpg",
+            "gbpprice": "46.29",
+            "sekprice": 563.43
+        },
+        {
+            "title": "The Dinner Party",
+            "booklink": "https://books.toscrape.com/catalogue/the-dinner-party_635/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/ba/76/ba761d23c5c0e5a0638e04739c69c5d0.jpg",
+            "gbpprice": "56.54",
+            "sekprice": 688.19
+        },
+        {
+            "title": "The Improbability of Love",
+            "booklink": "https://books.toscrape.com/catalogue/the-improbability-of-love_607/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/06/49/06493269f6893cfd24b650f66df51882.jpg",
+            "gbpprice": "59.45",
+            "sekprice": 723.61
+        },
+        {
+            "title": "Mothering Sunday",
+            "booklink": "https://books.toscrape.com/catalogue/mothering-sunday_600/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/a8/84/a8843a3fe1a40d5c7df60bbb8cd76ecd.jpg",
+            "gbpprice": "13.34",
+            "sekprice": 162.37
+        },
+        {
+            "title": "Lies and Other Acts of Love",
+            "booklink": "https://books.toscrape.com/catalogue/lies-and-other-acts-of-love_596/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/29/88/2988f5fb3dfd95214dba2ecb2d496c94.jpg",
+            "gbpprice": "45.14",
+            "sekprice": 549.43
+        },
+        {
+            "title": "Daredevils",
+            "booklink": "https://books.toscrape.com/catalogue/daredevils_590/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/31/71/31715c5e3b53bf1e2f41e394f024a8c4.jpg",
+            "gbpprice": "16.34",
+            "sekprice": 198.89
+        },
+        {
+            "title": "11/22/63",
+            "booklink": "https://books.toscrape.com/catalogue/112263_583/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/f6/c5/f6c5d27eacb123238f28a32263694d74.jpg",
+            "gbpprice": "48.48",
+            "sekprice": 590.09
+        },
+        {
+            "title": "The Shack",
+            "booklink": "https://books.toscrape.com/catalogue/the-shack_576/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/20/8b/208b77faac57115ae239391fe2a64c86.jpg",
+            "gbpprice": "28.03",
+            "sekprice": 341.17
+        },
+        {
+            "title": "The High Mountains of Portugal",
+            "booklink": "https://books.toscrape.com/catalogue/the-high-mountains-of-portugal_547/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/55/00/550091fc134bbe67f562d95a6d6313f7.jpg",
+            "gbpprice": "51.15",
+            "sekprice": 622.58
+        },
+        {
+            "title": "Miller's Valley",
+            "booklink": "https://books.toscrape.com/catalogue/millers-valley_534/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/dc/1a/dc1a54201eff16a11e7d84eef5ea36c7.jpg",
+            "gbpprice": "58.54",
+            "sekprice": 712.53
+        },
+        {
+            "title": "Hystopia: A Novel",
+            "booklink": "https://books.toscrape.com/catalogue/hystopia-a-novel_523/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/2d/7b/2d7b77d8b45b2f8e1bc0ce20aacddad0.jpg",
+            "gbpprice": "21.96",
+            "sekprice": 267.29
+        },
+        {
+            "title": "The Bourne Identity (Jason Bourne #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-bourne-identity-jason-bourne-1_492/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/40/8d/408d93b27ce8c9cfb3bf66c17e9a54ab.jpg",
+            "gbpprice": "42.78",
+            "sekprice": 520.71
+        },
+        {
+            "title": "Sister Dear",
+            "booklink": "https://books.toscrape.com/catalogue/sister-dear_485/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/fa/57/fa570b7a0fb42252f61e1e750c79d417.jpg",
+            "gbpprice": "40.20",
+            "sekprice": 489.3
+        },
+        {
+            "title": "Memoirs of a Geisha",
+            "booklink": "https://books.toscrape.com/catalogue/memoirs-of-a-geisha_477/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/41/80/4180406c788ff3e0f37cd4491a260a5b.jpg",
+            "gbpprice": "49.67",
+            "sekprice": 604.57
+        },
+        {
+            "title": "Me Before You (Me Before You #1)",
+            "booklink": "https://books.toscrape.com/catalogue/me-before-you-me-before-you-1_434/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/a2/cd/a2cd0016b37c0407059147e58e14afe5.jpg",
+            "gbpprice": "19.02",
+            "sekprice": 231.51
+        },
+        {
+            "title": "Deception Point",
+            "booklink": "https://books.toscrape.com/catalogue/deception-point_426/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/fa/2d/fa2d3198b7ba9785e0edd6f41b84d72b.jpg",
+            "gbpprice": "40.32",
+            "sekprice": 490.76
+        },
+        {
+            "title": "The Little Paris Bookshop",
+            "booklink": "https://books.toscrape.com/catalogue/the-little-paris-bookshop_407/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/50/a9/50a901fb008c0b8965c8d4da2dff5470.jpg",
+            "gbpprice": "24.73",
+            "sekprice": 301.01
+        },
+        {
+            "title": "The Firm",
+            "booklink": "https://books.toscrape.com/catalogue/the-firm_404/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/95/84/95847132a78de44b7249a2d0a3fe3ef6.jpg",
+            "gbpprice": "45.56",
+            "sekprice": 554.54
+        },
+        {
+            "title": "The Expatriates",
+            "booklink": "https://books.toscrape.com/catalogue/the-expatriates_401/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/db/e4/dbe49e1cb06136eeb51182f551ccdc52.jpg",
+            "gbpprice": "44.58",
+            "sekprice": 542.62
+        },
+        {
+            "title": "Siddhartha",
+            "booklink": "https://books.toscrape.com/catalogue/siddhartha_393/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/ce/0b/ce0be2d86e388540122c222306c6d62c.jpg",
+            "gbpprice": "34.22",
+            "sekprice": 416.52
+        },
+        {
+            "title": "Last One Home (New Beginnings #1)",
+            "booklink": "https://books.toscrape.com/catalogue/last-one-home-new-beginnings-1_383/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/e4/0a/e40a336622fe578699be5a1eeba18f9d.jpg",
+            "gbpprice": "59.98",
+            "sekprice": 730.06
+        },
+        {
+            "title": "Digital Fortress",
+            "booklink": "https://books.toscrape.com/catalogue/digital-fortress_369/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/5c/77/5c770b251d27aeef263f8ae974ca02e0.jpg",
+            "gbpprice": "58.00",
+            "sekprice": 705.96
+        },
+        {
+            "title": "Atlas Shrugged",
+            "booklink": "https://books.toscrape.com/catalogue/atlas-shrugged_314/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/a5/4f/a54fea8d034eba2ee4d1b8af30f1a308.jpg",
+            "gbpprice": "26.58",
+            "sekprice": 323.52
+        },
+        {
+            "title": "Three-Martini Lunch",
+            "booklink": "https://books.toscrape.com/catalogue/three-martini-lunch_290/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/1d/8e/1d8eb8aaebd14464fc58a681091b8d45.jpg",
+            "gbpprice": "23.21",
+            "sekprice": 282.51
+        },
+        {
+            "title": "The Nightingale",
+            "booklink": "https://books.toscrape.com/catalogue/the-nightingale_267/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/77/aa/77aa0ef1f62a0b0b40000a81f65c4e65.jpg",
+            "gbpprice": "26.26",
+            "sekprice": 319.63
+        },
+        {
+            "title": "The Infinities",
+            "booklink": "https://books.toscrape.com/catalogue/the-infinities_257/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/9c/44/9c445b33d53b3810f1c12f4adad71a27.jpg",
+            "gbpprice": "27.41",
+            "sekprice": 333.63
+        },
+        {
+            "title": "The Husband's Secret",
+            "booklink": "https://books.toscrape.com/catalogue/the-husbands-secret_256/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/f0/5b/f05be79a4b319e24819c318e35e6963c.jpg",
+            "gbpprice": "52.51",
+            "sekprice": 639.14
+        },
+        {
+            "title": "The Da Vinci Code (Robert Langdon #2)",
+            "booklink": "https://books.toscrape.com/catalogue/the-da-vinci-code-robert-langdon-2_240/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/cf/d5/cfd553eaa00f4d6091c459081cd98199.jpg",
+            "gbpprice": "22.96",
+            "sekprice": 279.46
+        },
+        {
+            "title": "The Art of Fielding",
+            "booklink": "https://books.toscrape.com/catalogue/the-art-of-fielding_228/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/68/a6/68a6112c857e595c684f2a1a3287ba16.jpg",
+            "gbpprice": "22.10",
+            "sekprice": 269.0
+        },
+        {
+            "title": "Lila (Gilead #3)",
+            "booklink": "https://books.toscrape.com/catalogue/lila-gilead-3_190/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/2b/99/2b99a765a013979637b4a6726bfb10f5.jpg",
+            "gbpprice": "12.47",
+            "sekprice": 151.78
+        },
+        {
+            "title": "Jurassic Park (Jurassic Park #1)",
+            "booklink": "https://books.toscrape.com/catalogue/jurassic-park-jurassic-park-1_180/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/9a/71/9a7160b396790bd4a351522278de4f8c.jpg",
+            "gbpprice": "44.97",
+            "sekprice": 547.36
+        },
+        {
+            "title": "Inferno (Robert Langdon #4)",
+            "booklink": "https://books.toscrape.com/catalogue/inferno-robert-langdon-4_176/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/e3/11/e3111146083821b5a3670d869ab40d2a.jpg",
+            "gbpprice": "41.00",
+            "sekprice": 499.04
+        },
+        {
+            "title": "Crazy Rich Asians (Crazy Rich Asians #1)",
+            "booklink": "https://books.toscrape.com/catalogue/crazy-rich-asians-crazy-rich-asians-1_143/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/9a/62/9a621372fed3a80015283013d8a452cd.jpg",
+            "gbpprice": "49.13",
+            "sekprice": 598.0
+        },
+        {
+            "title": "Big Little Lies",
+            "booklink": "https://books.toscrape.com/catalogue/big-little-lies_129/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/ef/b7/efb72b546fc7cab4ba1735b4b82c5851.jpg",
+            "gbpprice": "22.11",
+            "sekprice": 269.12
+        },
+        {
+            "title": "The Course of Love",
+            "booklink": "https://books.toscrape.com/catalogue/the-course-of-love_109/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/f2/c9/f2c952cfbce6ab5d8400a0bb8ee4eb5c.jpg",
+            "gbpprice": "16.78",
+            "sekprice": 204.24
+        },
+        {
+            "title": "When I'm Gone",
+            "booklink": "https://books.toscrape.com/catalogue/when-im-gone_95/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/13/a3/13a361d57f2b6021b2ae395a6fedd475.jpg",
+            "gbpprice": "51.96",
+            "sekprice": 632.44
+        },
+        {
+            "title": "The Silent Wife",
+            "booklink": "https://books.toscrape.com/catalogue/the-silent-wife_83/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/9b/a3/9ba37429e4a2307fe0b2f4f4162dd636.jpg",
+            "gbpprice": "12.34",
+            "sekprice": 150.2
+        },
+        {
+            "title": "The Bette Davis Club",
+            "booklink": "https://books.toscrape.com/catalogue/the-bette-davis-club_59/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/23/08/2308bf77130cf0a917642d82dbf4be05.jpg",
+            "gbpprice": "30.66",
+            "sekprice": 373.19
+        },
+        {
+            "title": "Kitchens of the Great Midwest",
+            "booklink": "https://books.toscrape.com/catalogue/kitchens-of-the-great-midwest_28/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/5e/37/5e379c1cc7003127bc74257a1b721540.jpg",
+            "gbpprice": "57.20",
+            "sekprice": 696.22
+        },
+        {
+            "title": "Bright Lines",
+            "booklink": "https://books.toscrape.com/catalogue/bright-lines_11/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/12/43/1243e7eb614f57f0e4cfee80553fa312.jpg",
+            "gbpprice": "39.07",
+            "sekprice": 475.55
+        }
+    ]
+}

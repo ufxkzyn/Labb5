@@ -1,0 +1,286 @@
+{
+    "category": "Romance",
+    "categorylink": "https://books.toscrape.com/catalogue/category/books/romance_8/index.html",
+    "books": [
+        {
+            "title": "Chase Me (Paris Nights #2)",
+            "booklink": "https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/9c/2e/9c2e0eb8866b8e3f3b768994fd3d1c1a.jpg",
+            "gbpprice": "25.27",
+            "sekprice": 307.58
+        },
+        {
+            "title": "Black Dust",
+            "booklink": "https://books.toscrape.com/catalogue/black-dust_976/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/44/cc/44ccc99c8f82c33d4f9d2afa4ef25787.jpg",
+            "gbpprice": "34.53",
+            "sekprice": 420.29
+        },
+        {
+            "title": "Her Backup Boyfriend (The Sorensen Family #1)",
+            "booklink": "https://books.toscrape.com/catalogue/her-backup-boyfriend-the-sorensen-family-1_896/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/1e/bb/1ebbbc3e2d3249b111033cfc40763b0b.jpg",
+            "gbpprice": "33.97",
+            "sekprice": 413.47
+        },
+        {
+            "title": "First and First (Five Boroughs #3)",
+            "booklink": "https://books.toscrape.com/catalogue/first-and-first-five-boroughs-3_893/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/c4/d1/c4d1517cc9370e292366b6132ca9ca36.jpg",
+            "gbpprice": "15.97",
+            "sekprice": 194.38
+        },
+        {
+            "title": "Fifty Shades Darker (Fifty Shades #2)",
+            "booklink": "https://books.toscrape.com/catalogue/fifty-shades-darker-fifty-shades-2_892/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/cc/bd/ccbdae9e29b3594301528fa2c876ec29.jpg",
+            "gbpprice": "21.96",
+            "sekprice": 267.29
+        },
+        {
+            "title": "The Wedding Dress",
+            "booklink": "https://books.toscrape.com/catalogue/the-wedding-dress_864/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/28/99/28992d89f4abf54fba183fc8d074adf3.jpg",
+            "gbpprice": "24.12",
+            "sekprice": 293.58
+        },
+        {
+            "title": "Suddenly in Love (Lake Haven #1)",
+            "booklink": "https://books.toscrape.com/catalogue/suddenly-in-love-lake-haven-1_835/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/e9/f4/e9f4bc8cf5ffaea1504623c936e90a48.jpg",
+            "gbpprice": "55.99",
+            "sekprice": 681.49
+        },
+        {
+            "title": "Something More Than This",
+            "booklink": "https://books.toscrape.com/catalogue/something-more-than-this_834/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/59/10/5910fbd8a95e8e9de9c660b71e0694e2.jpg",
+            "gbpprice": "16.24",
+            "sekprice": 197.67
+        },
+        {
+            "title": "Doing It Over (Most Likely To #1)",
+            "booklink": "https://books.toscrape.com/catalogue/doing-it-over-most-likely-to-1_802/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/e9/25/e9250495a525eb203652ad9da85ccb8e.jpg",
+            "gbpprice": "35.61",
+            "sekprice": 433.44
+        },
+        {
+            "title": "The Wedding Pact (The O'Malleys #2)",
+            "booklink": "https://books.toscrape.com/catalogue/the-wedding-pact-the-omalleys-2_767/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/7e/67/7e67addd80caaf8a9f9e9daa9cf66bb2.jpg",
+            "gbpprice": "32.61",
+            "sekprice": 396.92
+        },
+        {
+            "title": "Hold Your Breath (Search and Rescue #1)",
+            "booklink": "https://books.toscrape.com/catalogue/hold-your-breath-search-and-rescue-1_700/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/0b/89/0b89c3b317d0f89da48356a0b5959c1e.jpg",
+            "gbpprice": "28.82",
+            "sekprice": 350.79
+        },
+        {
+            "title": "Dirty (Dive Bar #1)",
+            "booklink": "https://books.toscrape.com/catalogue/dirty-dive-bar-1_615/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/ae/90/ae903f6f6d059954be4e85497dd76bf5.jpg",
+            "gbpprice": "40.83",
+            "sekprice": 496.97
+        },
+        {
+            "title": "Take Me Home Tonight (Rock Star Romance #3)",
+            "booklink": "https://books.toscrape.com/catalogue/take-me-home-tonight-rock-star-romance-3_605/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/a6/4b/a64b3c559f59748bfdbbe75be3e16075.jpg",
+            "gbpprice": "53.98",
+            "sekprice": 657.03
+        },
+        {
+            "title": "Off the Hook (Fishing for Trouble #1)",
+            "booklink": "https://books.toscrape.com/catalogue/off-the-hook-fishing-for-trouble-1_601/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/1d/78/1d78fe226e1adb9cb591fa21f8a9bf68.jpg",
+            "gbpprice": "47.67",
+            "sekprice": 580.23
+        },
+        {
+            "title": "A Gentleman's Position (Society of Gentlemen #3)",
+            "booklink": "https://books.toscrape.com/catalogue/a-gentlemans-position-society-of-gentlemen-3_584/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/f0/e0/f0e0db3edcb14293a52b51929cc72979.jpg",
+            "gbpprice": "14.75",
+            "sekprice": 179.53
+        },
+        {
+            "title": "Sit, Stay, Love",
+            "booklink": "https://books.toscrape.com/catalogue/sit-stay-love_486/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/8e/40/8e408552c2e7ee81cd60c03c79f604af.jpg",
+            "gbpprice": "20.90",
+            "sekprice": 254.39
+        },
+        {
+            "title": "A Girl's Guide to Moving On (New Beginnings #2)",
+            "booklink": "https://books.toscrape.com/catalogue/a-girls-guide-to-moving-on-new-beginnings-2_359/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/f7/a9/f7a90a63f66ac92cc280def001970ed2.jpg",
+            "gbpprice": "31.30",
+            "sekprice": 380.98
+        },
+        {
+            "title": "The Perfect Play (Play by Play #1)",
+            "booklink": "https://books.toscrape.com/catalogue/the-perfect-play-play-by-play-1_352/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/40/16/4016ffba678f309171d8130135f6eb8e.jpg",
+            "gbpprice": "59.99",
+            "sekprice": 730.18
+        },
+        {
+            "title": "Dark Lover (Black Dagger Brotherhood #1)",
+            "booklink": "https://books.toscrape.com/catalogue/dark-lover-black-dagger-brotherhood-1_319/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/3c/a2/3ca2e61181fc1122658af8f85354bae8.jpg",
+            "gbpprice": "12.87",
+            "sekprice": 156.65
+        },
+        {
+            "title": "Changing the Game (Play by Play #2)",
+            "booklink": "https://books.toscrape.com/catalogue/changing-the-game-play-by-play-2_317/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/57/47/57472d9c6d483bee9c38c90bfa10b3ee.jpg",
+            "gbpprice": "13.38",
+            "sekprice": 162.86
+        },
+        {
+            "title": "A Walk to Remember",
+            "booklink": "https://books.toscrape.com/catalogue/a-walk-to-remember_312/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/fa/1b/fa1b0fac146201645c740b02802e2211.jpg",
+            "gbpprice": "56.43",
+            "sekprice": 686.85
+        },
+        {
+            "title": "The Purest Hook (Second Circle Tattoos #3)",
+            "booklink": "https://books.toscrape.com/catalogue/the-purest-hook-second-circle-tattoos-3_271/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/15/68/1568ef85fdb4e405b9f8bc62ef855c10.jpg",
+            "gbpprice": "12.25",
+            "sekprice": 149.1
+        },
+        {
+            "title": "The Obsession",
+            "booklink": "https://books.toscrape.com/catalogue/the-obsession_268/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/24/93/2493c74c614afcc435cc00e33bd55f64.jpg",
+            "gbpprice": "45.43",
+            "sekprice": 552.96
+        },
+        {
+            "title": "Reservations for Two",
+            "booklink": "https://books.toscrape.com/catalogue/reservations-for-two_211/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/39/a4/39a4d96a5bc75a34aae97676a4b854fa.jpg",
+            "gbpprice": "11.10",
+            "sekprice": 135.11
+        },
+        {
+            "title": "Best of My Love (Fool's Gold #20)",
+            "booklink": "https://books.toscrape.com/catalogue/best-of-my-love-fools-gold-20_127/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/06/8c/068ccab8875670fccb8b72234370d16f.jpg",
+            "gbpprice": "27.41",
+            "sekprice": 333.63
+        },
+        {
+            "title": "Where Lightning Strikes (Bleeding Stars #3)",
+            "booklink": "https://books.toscrape.com/catalogue/where-lightning-strikes-bleeding-stars-3_96/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/73/d9/73d948af3f2adb6dd693ff4bd43e7760.jpg",
+            "gbpprice": "39.77",
+            "sekprice": 484.07
+        },
+        {
+            "title": "This One Moment (Pushing Limits #1)",
+            "booklink": "https://books.toscrape.com/catalogue/this-one-moment-pushing-limits-1_88/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/9b/06/9b061431c4fbb98cc18068a523a49988.jpg",
+            "gbpprice": "48.71",
+            "sekprice": 592.88
+        },
+        {
+            "title": "Rhythm, Chord & Malykhin",
+            "booklink": "https://books.toscrape.com/catalogue/rhythm-chord-malykhin_47/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/43/85/4385ee0304bc3546f2b6eaa75c46d4f8.jpg",
+            "gbpprice": "28.34",
+            "sekprice": 344.95
+        },
+        {
+            "title": "My Perfect Mistake (Over the Top #1)",
+            "booklink": "https://books.toscrape.com/catalogue/my-perfect-mistake-over-the-top-1_35/index.html",
+            "rating": "Two",
+            "thumbnail": "https://books.toscrape.com/media/cache/0d/03/0d03eb55ed070a53b6c4b6eedd48b458.jpg",
+            "gbpprice": "38.92",
+            "sekprice": 473.72
+        },
+        {
+            "title": "Listen to Me (Fusion #1)",
+            "booklink": "https://books.toscrape.com/catalogue/listen-to-me-fusion-1_29/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/00/dd/00dd43f59d255cbc16e9d9c9ed20a997.jpg",
+            "gbpprice": "58.99",
+            "sekprice": 718.01
+        },
+        {
+            "title": "Imperfect Harmony",
+            "booklink": "https://books.toscrape.com/catalogue/imperfect-harmony_26/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/fb/29/fb299a516730a2f2602b10f945f7a8e5.jpg",
+            "gbpprice": "34.74",
+            "sekprice": 422.85
+        },
+        {
+            "title": "Fighting Fate (Fighting #6)",
+            "booklink": "https://books.toscrape.com/catalogue/fighting-fate-fighting-6_18/index.html",
+            "rating": "Three",
+            "thumbnail": "https://books.toscrape.com/media/cache/57/e2/57e255929f6e597c18cb3843904cd92b.jpg",
+            "gbpprice": "39.24",
+            "sekprice": 477.62
+        },
+        {
+            "title": "Deep Under (Walker Security #1)",
+            "booklink": "https://books.toscrape.com/catalogue/deep-under-walker-security-1_15/index.html",
+            "rating": "Five",
+            "thumbnail": "https://books.toscrape.com/media/cache/74/e4/74e4ec43c40926c7b57fc0fe0f397183.jpg",
+            "gbpprice": "47.09",
+            "sekprice": 573.17
+        },
+        {
+            "title": "Charity's Cross (Charles Towne Belles #4)",
+            "booklink": "https://books.toscrape.com/catalogue/charitys-cross-charles-towne-belles-4_12/index.html",
+            "rating": "One",
+            "thumbnail": "https://books.toscrape.com/media/cache/39/e0/39e008f84bbd24b49a7532c2024b855e.jpg",
+            "gbpprice": "41.24",
+            "sekprice": 501.96
+        },
+        {
+            "title": "Bounty (Colorado Mountain #7)",
+            "booklink": "https://books.toscrape.com/catalogue/bounty-colorado-mountain-7_9/index.html",
+            "rating": "Four",
+            "thumbnail": "https://books.toscrape.com/media/cache/80/ff/80ff924ed78cd7c5172410d0d92f8dfe.jpg",
+            "gbpprice": "37.26",
+            "sekprice": 453.52
+        }
+    ]
+}
